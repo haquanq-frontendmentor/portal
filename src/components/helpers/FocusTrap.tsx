@@ -21,6 +21,12 @@ export const FocusTrap = ({ isDisabled = false, children, ...restProps }: FocusT
     const firstFocusableElement = focusableElements[0];
     const lastFocusableElement = focusableElements[focusableElements.length - 1];
 
+    if (isDisabled === false) {
+      setTimeout(() => {
+        firstFocusableElement.focus();
+      }, 10);
+    }
+
     const handleFirstFocusableElementKeydown = (e: KeyboardEvent) => {
       if (isDisabled) return;
       if (e.shiftKey && e.key === "Tab") {
