@@ -45,4 +45,8 @@
     button {
         @apply cursor-pointer;
     }
+
+    *:focus-visible {
+        @apply rounded-xs outline-2 outline-offset-2 outline-gray-900;
+    }
 }
