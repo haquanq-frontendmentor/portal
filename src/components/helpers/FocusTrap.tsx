@@ -3,32 +3,47 @@ import { useEffect, useRef } from "react";
 const focusableSelector =
   'a[href], button, input:not([type="hidden"]), select, textarea, [tabindex]:not([tabindex="-1"])';
 
-export const FocusTrap = ({ children, ...restProps }: React.ComponentProps<"div">) => {
+interface FocusTrapProps extends React.ComponentProps<"div"> {
+  isDisabled?: boolean;
+}
+
+export const FocusTrap = ({ isDisabled = false, children, ...restProps }: FocusTrapProps) => {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!ref.current) return;
     const container = ref.current as HTMLDivElement;
 
-    const focusables = container.querySelectorAll(focusableSelector) as NodeListOf<HTMLElement & { focus: () => void }>;
+    const focusableElements = container.querySelectorAll(focusableSelector) as NodeListOf<
+      HTMLElement & { focus: () => void }
+    >;
 
-    const firstFocusable = focusables[0];
-    const lastFocusable = focusables[focusables.length - 1];
+    const firstFocusableElement = focusableElements[0];
+    const lastFocusableElement = focusableElements[focusableElements.length - 1];
 
-    firstFocusable.addEventListener("keydown", (e) => {
+    const handleFirstFocusableElementKeydown = (e: KeyboardEvent) => {
+      if (isDisabled) return;
       if (e.shiftKey && e.key === "Tab") {
         e.preventDefault();
-        lastFocusable.focus();
+        lastFocusableElement.focus();
       }
-    });
+    };
 
-    lastFocusable.addEventListener("keydown", (e) => {
+    const handleLastFocusableElementKeydown = (e: KeyboardEvent) => {
+      if (isDisabled) return;
       if (!e.shiftKey && e.key === "Tab") {
         e.preventDefault();
-        firstFocusable.focus();
+        firstFocusableElement.focus();
       }
-    });
-  }, []);
+    };
+
+    firstFocusableElement.addEventListener("keydown", handleFirstFocusableElementKeydown);
+    lastFocusableElement.addEventListener("keydown", handleLastFocusableElementKeydown);
+    return () => {
+      firstFocusableElement.removeEventListener("keydown", handleFirstFocusableElementKeydown);
+      lastFocusableElement.removeEventListener("keydown", handleLastFocusableElementKeydown);
+    };
+  }, [isDisabled]);
 
   return (
     <div ref={ref} {...restProps}>
