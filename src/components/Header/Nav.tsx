@@ -55,12 +55,9 @@ export const Nav = () => {
 
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
-  }, [menuOpen]);
-
-  useEffect(() => {
     window.addEventListener("resize", handleAppResize);
     return () => window.removeEventListener("resize", handleAppResize);
-  }, []);
+  }, [menuOpen]);
 
   return (
     <nav className="flex justify-center md:grow">
