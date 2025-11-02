@@ -20,7 +20,11 @@ export const Intro = () => {
           </div>
           <div className="flex flex-col items-center text-center lg:row-start-1 lg:items-start lg:text-start">
             <h1 className="mb-6 text-[clamp(2rem,0.0916rem+8.1425vw,4rem)] leading-[clamp(2.5rem,0.5916rem+8.1425vw,4.5rem)] font-bold">
-              Solutions for Frontendmentor.io challenges
+              Solutions for{" "}
+              <a className="hyphens-manual hover:underline" href="https://www.frontendmentor.io/" target="_blank">
+                Frontend&shy;mentor.io
+              </a>{" "}
+              challenges
             </h1>
             <p className="mb-8 max-w-120 text-base leading-6">
               A collection of my Frontend Mentor challenge solutions that demonstrates responsive UI layouts, attention
