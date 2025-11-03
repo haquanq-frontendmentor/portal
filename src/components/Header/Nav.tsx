@@ -59,6 +59,10 @@ export const Nav = () => {
     return () => window.removeEventListener("resize", handleAppResize);
   }, [menuOpen]);
 
+  useEffect(() => {
+    if (menuOpen) setMenuOpen(false);
+  }, [pathname]);
+
   return (
     <nav className="flex justify-center md:grow">
       <button
