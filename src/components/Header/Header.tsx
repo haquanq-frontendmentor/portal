@@ -18,7 +18,7 @@ export const Header = () => {
           <div className="flex items-center gap-3 md:grow">
             <Nav />
             <a
-              className="block"
+              className="block text-gray-900"
               href="https://github.com/haquanq-frontendmentor"
               target="_blank"
               aria-label="Organization repository"
