@@ -5,14 +5,15 @@ interface SolutionState {
     solutions: Solution[];
     topics: string[];
     filterTopics: string[];
-    filterDifficulty: DifficultyLevels | null;
+    filterDifficultyLevels: DifficultyLevels[];
 }
 
 interface SolutionAction {
     addTopicFilter: (topic: string) => void;
     setSolutions: (solutions: Solution[]) => void;
     setTopics: (topics: string[]) => void;
-    setDifficultyFilter: (difficulty: DifficultyLevels) => void;
+    addDifficultyFilter: (difficulty: DifficultyLevels) => void;
+    getFilteredSolutions: () => Solution[];
 }
 
 const useSolutionStore = create<SolutionState & SolutionAction>()((set, get) => ({
@@ -28,18 +29,21 @@ const useSolutionStore = create<SolutionState & SolutionAction>()((set, get) => 
     setTopics: (topics) => {
         set({ topics });
     },
-    filterDifficulty: null,
-    setDifficultyFilter: (difficulty) => {
-        set({ filterDifficulty: difficulty });
+    filterDifficultyLevels: [],
+    addDifficultyFilter: (difficultyLevel) => {
+        set((state) => ({ filterDifficultyLevels: [...state.filterDifficultyLevels, difficultyLevel] }));
     },
     getFilteredSolutions: () => {
         const state = get();
         return state.solutions.filter((v) => {
             const topicSet = new Set(v.topics);
-            return (
-                state.filterTopics.every((v) => topicSet.has(v)) &&
-                v.frontendmentor.difficulty === state.filterDifficulty
-            );
+            const hasFilteredDifficultyLevels =
+                state.filterDifficultyLevels.length !== 0
+                    ? state.filterDifficultyLevels.includes(v.frontendmentor.difficulty)
+                    : true;
+
+            const hasFilteredTopics = state.filterTopics.every((v) => topicSet.has(v)) && hasFilteredDifficultyLevels;
+            return hasFilteredTopics && hasFilteredDifficultyLevels;
         });
     },
 }));
