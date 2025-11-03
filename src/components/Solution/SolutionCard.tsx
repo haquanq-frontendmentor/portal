@@ -1,6 +1,6 @@
 "use client";
 
-import { Solution } from "@/$types/Solution";
+import { Solution } from "@/services/Solution/types";
 import { hexToRgb } from "@/utils/hexToRgb";
 import { CodeXmlIcon } from "lucide-react";
 
