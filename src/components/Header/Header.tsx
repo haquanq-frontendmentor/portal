@@ -4,9 +4,9 @@ import { Nav } from "./Nav";
 
 export const Header = () => {
   return (
-    <header className="relative bg-white">
+    <header className="relative z-999 bg-white">
       <ContainerLayout>
-        <div className="flex items-center justify-between py-5">
+        <div className="flex items-center justify-between py-5 sm:py-8">
           <a
             className="text-xl font-bold text-gray-900"
             href="https://github.com/haquanq"
