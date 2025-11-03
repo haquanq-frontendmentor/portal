@@ -1,67 +1,84 @@
 import { DifficultyLevels, Solution } from "@/services/Solution/types";
 import { create } from "zustand";
 
-interface SolutionState {
+interface SolutionStore {
     solutions: Solution[];
-    topics: string[];
-    filterTopics: string[];
-    filterDifficultyLevels: DifficultyLevels[];
-}
-
-interface SolutionAction {
     setSolutions: (solutions: Solution[]) => void;
-    setTopics: (topics: string[]) => void;
     getFilteredSolutions: () => Solution[];
-    addDifficultyLevelFilter: (difficultyLevel: DifficultyLevels) => void;
-    removeDifficultyLevelFilter: (difficultyLevel: DifficultyLevels) => void;
-    clearDifficultyLevelFilter: () => void;
-    addTopicFilter: (topic: string) => void;
-    removeTopicFilter: (topic: string) => void;
-    clearTopicFilter: () => void;
+    topics: string[];
+    setTopics: (topics: string[]) => void;
+    filter: {
+        topics: string[];
+        addTopic: (topic: string) => void;
+        removeTopic: (topic: string) => void;
+        clearAllTopics: () => void;
+        difficultyLevels: DifficultyLevels[];
+        addDifficultyLevel: (difficultyLevel: DifficultyLevels) => void;
+        removeDifficultyLevel: (difficultyLevel: DifficultyLevels) => void;
+        clearAllDifficultyLevels: () => void;
+        solutionName: string;
+        setSolutionName: (name: string) => void;
+    };
 }
 
-const useSolutionStore = create<SolutionState & SolutionAction>()((set, get) => ({
+const useSolutionStore = create<SolutionStore>()((set, get) => ({
     solutions: [],
+    setSolutions: (solutions: Solution[]) => {
+        set({ solutions });
+    },
     getFilteredSolutions: () => {
-        const state = get();
-        return state.solutions.filter((v) => {
+        const { solutions, filter } = get();
+        return solutions.filter((v) => {
             const topicSet = new Set(v.topics);
             const hasFilteredDifficultyLevels =
-                state.filterDifficultyLevels.length !== 0
-                    ? state.filterDifficultyLevels.includes(v.frontendmentor.difficulty)
+                filter.difficultyLevels.length !== 0
+                    ? filter.difficultyLevels.includes(v.frontendmentor.difficulty)
                     : true;
 
-            const hasFilteredTopics = state.filterTopics.every((v) => topicSet.has(v)) && hasFilteredDifficultyLevels;
-            return hasFilteredTopics && hasFilteredDifficultyLevels;
+            const hasFilteredNameMatch =
+                v.name.replace("-", " ").toLowerCase().indexOf(filter.solutionName.toLowerCase()) !== -1;
+
+            const hasFilteredTopics = filter.topics.every((v) => topicSet.has(v));
+            return hasFilteredTopics && hasFilteredDifficultyLevels && hasFilteredNameMatch;
         });
     },
     topics: [],
     setTopics: (topics) => {
         set({ topics });
     },
-    filterTopics: [],
-    addTopicFilter: (topic) => {
-        set((v) => ({ ...v, filterTopics: [...v.filterTopics, topic] }));
-    },
-    removeTopicFilter: (topic) => {
-        set((state) => ({ filterTopics: state.filterTopics.filter((v) => v !== topic) }));
-    },
-    clearTopicFilter: () => {
-        set({ filterTopics: [] });
-    },
-    setSolutions: (solutions: Solution[]) => {
-        set({ solutions });
-    },
-    filterDifficultyLevels: [],
-    addDifficultyLevelFilter: (difficultyLevel) => {
-        set((state) => ({ filterDifficultyLevels: [...state.filterDifficultyLevels, difficultyLevel] }));
-    },
-    removeDifficultyLevelFilter: (difficultyLevel) => {
-        set((state) => ({ filterDifficultyLevels: state.filterDifficultyLevels.filter((v) => v !== difficultyLevel) }));
-    },
-    clearDifficultyLevelFilter: () => {
-        set({ filterDifficultyLevels: [] });
+    filter: {
+        solutionName: "",
+        setSolutionName: (name) => {
+            set((state) => ({ filter: { ...state.filter, solutionName: name } }));
+        },
+        topics: [],
+        addTopic: (topic) => {
+            set((state) => ({ filter: { ...state.filter, topics: [...state.filter.topics, topic] } }));
+        },
+        removeTopic: (topic) => {
+            set((state) => ({ filter: { ...state.filter, topics: state.filter.topics.filter((v) => v !== topic) } }));
+        },
+        clearAllTopics: () => {
+            set((state) => ({ filter: { ...state.filter, topics: [] } }));
+        },
+        difficultyLevels: [],
+        addDifficultyLevel: (difficultyLevel) => {
+            set((state) => ({
+                filter: { ...state.filter, difficultyLevels: [...state.filter.difficultyLevels, difficultyLevel] },
+            }));
+        },
+        removeDifficultyLevel: (difficultyLevel) => {
+            set((state) => ({
+                filter: {
+                    ...state.filter,
+                    difficultyLevels: state.filter.difficultyLevels.filter((v) => v !== difficultyLevel),
+                },
+            }));
+        },
+        clearAllDifficultyLevels: () => {
+            set((state) => ({ filter: { ...state.filter, difficultyLevels: [] } }));
+        },
     },
 }));
 
-export { useSolutionStore, type SolutionAction, type SolutionState };
+export { useSolutionStore, type SolutionStore };
