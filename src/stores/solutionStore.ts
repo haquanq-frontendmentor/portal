@@ -12,7 +12,7 @@ interface SolutionAction {
     addTopicFilter: (topic: string) => void;
     setSolutions: (solutions: Solution[]) => void;
     setTopics: (topics: string[]) => void;
-    addDifficultyFilter: (difficulty: DifficultyLevels) => void;
+    addDifficultyLevelFilter: (difficultyLevel: DifficultyLevels) => void;
     getFilteredSolutions: () => Solution[];
 }
 
@@ -30,7 +30,7 @@ const useSolutionStore = create<SolutionState & SolutionAction>()((set, get) => 
         set({ topics });
     },
     filterDifficultyLevels: [],
-    addDifficultyFilter: (difficultyLevel) => {
+    addDifficultyLevelFilter: (difficultyLevel) => {
         set((state) => ({ filterDifficultyLevels: [...state.filterDifficultyLevels, difficultyLevel] }));
     },
     getFilteredSolutions: () => {
