@@ -1,22 +1,24 @@
 "use client";
 
-import { Solution } from "@/$types/Solution";
 import { ContainerLayout } from "@/components/layouts/ContainerLayout";
+import { Solution } from "@/services/Solution/types";
 import { useSolutionStore } from "@/stores/solutionStore";
 import { useEffect } from "react";
 import { SolutionSummaryByDifficulty } from "./SolutionShowcaseByDifficulty";
 
-interface SolutionShowcaseProps {
-  solutions: Solution[];
-  topics: string[];
-}
-
-export const SolutionShowcase = ({ solutions, topics }: SolutionShowcaseProps) => {
+export const SolutionShowcase = () => {
   const solutionStore = useSolutionStore();
 
   useEffect(() => {
-    solutionStore.setSolutions(solutions);
-    solutionStore.setTopics(topics);
+    fetch("/data.json")
+      .then((v) => v.json())
+      .then((data) => {
+        const solutions = data as Solution[];
+
+        const topics = [...new Set(solutions.reduce((a, v) => a.concat(v.topics), [] as string[]))];
+        solutionStore.setSolutions(solutions);
+        solutionStore.setTopics(topics);
+      });
   }, []);
 
   const challengeDifficultyLevels = [
@@ -52,7 +54,7 @@ export const SolutionShowcase = ({ solutions, topics }: SolutionShowcaseProps) =
             {challengeDifficultyLevels.map((v) => (
               <SolutionSummaryByDifficulty
                 challengeCount={v.count}
-                solutions={solutions.filter((solution) => solution.frontendmentor.difficulty === v.name)}
+                solutions={solutionStore.solutions.filter((solution) => solution.frontendmentor.difficulty === v.name)}
                 difficulty={v.name}
                 key={v.name}
               />
