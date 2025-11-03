@@ -12,29 +12,34 @@ export const SolutionCard = ({ solution }: SolutionCardProps) => {
   return (
     <div className="flex flex-col gap-5">
       <a
-        className="group relative rounded-xl"
+        className="group relative aspect-384/282 rounded-xl"
         href={solution.live}
         target="_blank"
-        style={{
-          backgroundColor:
-            solution.colors.brand !== "" ? `rgba(${hexToRgb(solution.colors.brand).join(",")}, 0.75)` : undefined,
-          boxShadow:
-            solution.colors.brand !== ""
-              ? `0 4px 24px -12px rgba(${hexToRgb(solution.colors.brand).join(",")}, 0.75)`
-              : undefined,
-        }}
+        aria-label="Go to live site"
       >
+        <span className="block overflow-hidden rounded-xl">
+          <img
+            className="transition-transform duration-500 group-hover:scale-105"
+            src={solution.images.preview}
+            alt=""
+          />
+        </span>
         <span
-          className="relative z-10 block aspect-384/282 overflow-hidden rounded-xl border-2 transition-transform duration-300 group-hover:-translate-y-8"
+          className="absolute inset-0 block rounded-xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"
           style={{
-            borderColor: `rgba(${hexToRgb(solution.colors.brand).join(",")},0.5)`,
+            boxShadow:
+              solution.colors.brand !== ""
+                ? `0 4px 28px -12px rgba(${hexToRgb(solution.colors.brand).join(",")}, 0.75)`
+                : undefined,
           }}
-        >
-          <img src={solution.images.preview} alt="" />
-        </span>
-        <span className="absolute inset-x-0 bottom-1.75 text-center text-sm font-medium text-white" aria-hidden="true">
-          Go to live site
-        </span>
+        ></span>
+        <span className="absolute inset-0 z-10 block rounded-xl inset-ring-2 inset-ring-gray-200"></span>
+        <span
+          className="absolute inset-0 z-20 block rounded-xl border-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+          style={{
+            borderColor: `rgba(${hexToRgb(solution.colors.brand).join(",")}, 1)`,
+          }}
+        ></span>
       </a>
       <div className="flex items-center justify-between gap-3">
         <p className="font-semi-bold text-base leading-6 tracking-tight text-gray-900">{solution.name}</p>
