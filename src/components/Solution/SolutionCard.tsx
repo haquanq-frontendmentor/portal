@@ -12,19 +12,29 @@ export const SolutionCard = ({ solution }: SolutionCardProps) => {
   return (
     <div className="flex flex-col gap-5">
       <a
-        className="block aspect-384/282 overflow-hidden rounded-xl border-2"
+        className="group relative rounded-xl"
+        href={solution.live}
+        target="_blank"
         style={{
-          borderColor: `rgba(${hexToRgb(solution.colors.brand).join(",")},0.5)`,
+          backgroundColor:
+            solution.colors.brand !== "" ? `rgba(${hexToRgb(solution.colors.brand).join(",")}, 0.75)` : undefined,
           boxShadow:
             solution.colors.brand !== ""
               ? `0 4px 24px -12px rgba(${hexToRgb(solution.colors.brand).join(",")}, 0.75)`
               : undefined,
         }}
-        href={solution.live}
-        target="_blank"
-        aria-label="View live site"
       >
-        <img src={solution.images.preview} alt="" />
+        <span
+          className="relative z-10 block aspect-384/282 overflow-hidden rounded-xl border-2 transition-transform duration-300 group-hover:-translate-y-8"
+          style={{
+            borderColor: `rgba(${hexToRgb(solution.colors.brand).join(",")},0.5)`,
+          }}
+        >
+          <img src={solution.images.preview} alt="" />
+        </span>
+        <span className="absolute inset-x-0 bottom-1.75 text-center text-sm font-medium text-white" aria-hidden="true">
+          Go to live site
+        </span>
       </a>
       <div className="flex items-center justify-between gap-3">
         <p className="font-semi-bold text-base leading-6 tracking-tight text-gray-900">{solution.name}</p>
