@@ -1,0 +1,1644 @@
+[
+  {
+    "repository": {
+      "name": "testimonials-grid-section",
+      "url": "https://github.com/haquanq-frontendmentor/testimonials-grid-section",
+      "createdAt": "2024-05-26T03:03:41.000Z",
+      "updatedAt": "2025-11-02T17:46:34.000Z"
+    },
+    "topics": ["bem-css", "postcss"],
+    "colors": {
+      "brand": "#733FC8"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/pixel-perfect-with-html-and-css-6aDYE3MWi2"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/testimonials-grid-section/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/testimonials-grid-section/",
+    "name": "Testimonials Grid Section"
+  },
+  {
+    "repository": {
+      "name": "results-summary-component",
+      "url": "https://github.com/haquanq-frontendmentor/results-summary-component",
+      "createdAt": "2024-05-27T07:02:37.000Z",
+      "updatedAt": "2025-11-03T07:40:42.000Z"
+    },
+    "topics": ["bem-css", "css", "html"],
+    "colors": {
+      "brand": "#332DE9"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-accessible-summary-stats-4orTQfs48w"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/results-summary-component/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/results-summary-component/",
+    "name": "Results Summary Component"
+  },
+  {
+    "repository": {
+      "name": "order-summary-card",
+      "url": "https://github.com/haquanq-frontendmentor/order-summary-card",
+      "createdAt": "2024-05-27T12:54:39.000Z",
+      "updatedAt": "2025-11-03T13:21:54.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "css", "html"],
+    "colors": {
+      "brand": "#382BE1"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/only-html-and-css-p3jxyggcid"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/order-summary-card/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/order-summary-card/",
+    "name": "Order Summary Card"
+  },
+  {
+    "repository": {
+      "name": "product-preview-card-component",
+      "url": "https://github.com/haquanq-frontendmentor/product-preview-card-component",
+      "createdAt": "2024-05-27T13:18:11.000Z",
+      "updatedAt": "2025-11-03T13:23:21.000Z"
+    },
+    "topics": ["accessiblity", "bem-css", "css", "html"],
+    "colors": {
+      "brand": "#3F8067"
+    },
+    "featured": true,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-pixel-perfect-w-html-and-css-FVQo_jhfl0"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/product-preview-card-component/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/product-preview-card-component/",
+    "name": "Product Preview Card Component"
+  },
+  {
+    "repository": {
+      "name": "nft-preview-card-component",
+      "url": "https://github.com/haquanq-frontendmentor/nft-preview-card-component",
+      "createdAt": "2024-05-28T06:08:28.000Z",
+      "updatedAt": "2025-11-03T13:23:59.000Z"
+    },
+    "topics": ["bem-css", "css", "html"],
+    "colors": {
+      "brand": "#11BAC0"
+    },
+    "featured": true,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-pixel-perfect-w-html-and-bem-css-D8Igf0pz1o"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/nft-preview-card-component/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/nft-preview-card-component/",
+    "name": "NFT Preview Card Component"
+  },
+  {
+    "repository": {
+      "name": "newsletter-sign-up-form",
+      "url": "https://github.com/haquanq-frontendmentor/newsletter-sign-up-form",
+      "createdAt": "2024-05-28T07:45:52.000Z",
+      "updatedAt": "2025-11-02T17:45:15.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "html", "postcss"],
+    "colors": {
+      "brand": "#FF5C5F"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-pixel-perfect-w-html-and-css-and-js-igrSvu40DR"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/newsletter-sign-up-form/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/newsletter-sign-up-form/",
+    "name": "Newsletter Sign Up Form"
+  },
+  {
+    "repository": {
+      "name": "age-calculator-app",
+      "url": "https://github.com/haquanq-frontendmentor/age-calculator-app",
+      "createdAt": "2024-05-28T11:39:36.000Z",
+      "updatedAt": "2025-11-02T09:39:49.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "html", "postcss"],
+    "colors": {
+      "brand": "#8e23ff"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/only-html-and-css-i1rsBUEQ8I"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/age-calculator-app/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/age-calculator-app/",
+    "name": "Age Calculator"
+  },
+  {
+    "repository": {
+      "name": "interactive-rating-component",
+      "url": "https://github.com/haquanq-frontendmentor/interactive-rating-component",
+      "createdAt": "2024-05-30T08:18:38.000Z",
+      "updatedAt": "2025-11-03T12:35:10.000Z"
+    },
+    "topics": ["css", "html", "javascript"],
+    "colors": {
+      "brand": "#F97710"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-pixel-perfect-w-html-and-css-and-js-idX_tKF21-"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/interactive-rating-component/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/interactive-rating-component/",
+    "name": "Interactive Rating Component"
+  },
+  {
+    "repository": {
+      "name": "stats-preview-card-component",
+      "url": "https://github.com/haquanq-frontendmentor/stats-preview-card-component",
+      "createdAt": "2024-06-01T05:09:49.000Z",
+      "updatedAt": "2025-11-03T12:12:14.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "css", "html"],
+    "colors": {
+      "brand": "#1C1938"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-html-and-css-C-r2ExdfO2"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/stats-preview-card-component/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/stats-preview-card-component/",
+    "name": "Stats Preview Card Component"
+  },
+  {
+    "repository": {
+      "name": "news-homepage",
+      "url": "https://github.com/haquanq-frontendmentor/news-homepage",
+      "createdAt": "2024-06-02T13:50:48.000Z",
+      "updatedAt": "2025-11-02T17:44:54.000Z"
+    },
+    "topics": ["bem-css", "html", "postcss"],
+    "colors": {
+      "brand": "#F25D54"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/only-html-and-css-and-js-CJFe9f1HLj"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/news-homepage/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/news-homepage/",
+    "name": "News Homepage"
+  },
+  {
+    "repository": {
+      "name": "contact-form",
+      "url": "https://github.com/haquanq-frontendmentor/contact-form",
+      "createdAt": "2024-06-04T07:49:04.000Z",
+      "updatedAt": "2025-11-02T17:42:14.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "html", "junior", "postcss"],
+    "colors": {
+      "brand": "#0C7D69"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/pixel-perfected-better-focus-effects-with-html-and-css-and-js-jvT7UJIT9d"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/contact-form/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/contact-form/",
+    "name": "Contact Form"
+  },
+  {
+    "repository": {
+      "name": "pricing-component-with-toggle",
+      "url": "https://github.com/haquanq-frontendmentor/pricing-component-with-toggle",
+      "createdAt": "2024-06-05T10:10:56.000Z",
+      "updatedAt": "2025-11-02T17:45:58.000Z"
+    },
+    "topics": ["bem-css", "javascript", "postcss", "stylelint"],
+    "colors": {
+      "brand": "#7276E2"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-pixel-perfect-w-html-and-css-and-js-n_rL9kfU9P"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/pricing-component-with-toggle/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/pricing-component-with-toggle/",
+    "name": "Pricing Component With Toggle"
+  },
+  {
+    "repository": {
+      "name": "advice-generator-app",
+      "url": "https://github.com/haquanq-frontendmentor/advice-generator-app",
+      "createdAt": "2024-06-07T03:37:00.000Z",
+      "updatedAt": "2025-11-02T09:45:23.000Z"
+    },
+    "topics": ["adviceslip-api", "bem-css", "html", "postcss"],
+    "colors": {
+      "brand": "#54FF9E"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/pixel-perfect-with-html-and-css-and-js-C6mwsHVxtX"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/advice-generator-app/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/advice-generator-app/",
+    "name": "Advice Generator"
+  },
+  {
+    "repository": {
+      "name": "social-media-dashboard-with-theme",
+      "url": "https://github.com/haquanq-frontendmentor/social-media-dashboard-with-theme",
+      "createdAt": "2024-06-07T07:07:39.000Z",
+      "updatedAt": "2025-11-02T17:46:16.000Z"
+    },
+    "topics": ["bem-css", "javascript", "postcss"],
+    "colors": {
+      "brand": "#1D2029"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/only-html-and-css-and-js-U4dZJoVLIj"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/social-media-dashboard-with-theme/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/social-media-dashboard-with-theme/",
+    "name": "Social Media Dashboard With Theme"
+  },
+  {
+    "repository": {
+      "name": "recipe-page",
+      "url": "https://github.com/haquanq-frontendmentor/recipe-page",
+      "createdAt": "2024-06-09T07:18:31.000Z",
+      "updatedAt": "2025-11-03T06:21:41.000Z"
+    },
+    "topics": ["bem-css", "css", "html"],
+    "colors": {
+      "brand": "#7B284F"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/pixel-perfect-with-html-and-css-uXALFcktnl"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/recipe-page/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/recipe-page/",
+    "name": "Recipe Page"
+  },
+  {
+    "repository": {
+      "name": "social-links-profile",
+      "url": "https://github.com/haquanq-frontendmentor/social-links-profile",
+      "createdAt": "2024-06-11T23:56:51.000Z",
+      "updatedAt": "2025-11-03T07:48:59.000Z"
+    },
+    "topics": ["bem-css", "css", "html"],
+    "colors": {
+      "brand": "#98C020"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-pixel-perfect-w-html-and-css-rkU7mbzC3-"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/social-links-profile/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/social-links-profile/",
+    "name": "Social Links Profile"
+  },
+  {
+    "repository": {
+      "name": "blog-preview-card",
+      "url": "https://github.com/haquanq-frontendmentor/blog-preview-card",
+      "createdAt": "2024-06-13T05:54:22.000Z",
+      "updatedAt": "2025-11-03T06:49:25.000Z"
+    },
+    "topics": ["css", "html"],
+    "colors": {
+      "brand": "#222222"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/backdrop-move-on-hovering-the-title-w-css---html-u2z4GtR-Mx"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/blog-preview-card/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/blog-preview-card/",
+    "name": "Blog Preview Card"
+  },
+  {
+    "repository": {
+      "name": "mortgage-repayment-calculator",
+      "url": "https://github.com/haquanq-frontendmentor/mortgage-repayment-calculator",
+      "createdAt": "2024-07-01T07:10:39.000Z",
+      "updatedAt": "2025-11-02T17:44:43.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "html", "junior", "postcss"],
+    "colors": {
+      "brand": "#D9DB30"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/mortgage-repayment-calculator-Galx1LXK73",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/only-html-and-css-and-js-GxW6jsFYii"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/mortgage-repayment-calculator/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/mortgage-repayment-calculator/",
+    "name": "Mortgage Repayment Calculator"
+  },
+  {
+    "repository": {
+      "name": "faq-accordion",
+      "url": "https://github.com/haquanq-frontendmentor/faq-accordion",
+      "createdAt": "2024-07-01T08:03:58.000Z",
+      "updatedAt": "2025-11-03T06:07:35.000Z"
+    },
+    "topics": ["accessibility", "css", "html", "javascript"],
+    "colors": {
+      "brand": "#A12CD7"
+    },
+    "featured": true,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-pixel-perfect-w-html-and-css-and-js-iug2zdsQRZ"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/faq-accordion/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/faq-accordion/",
+    "name": "FAQ Accordion"
+  },
+  {
+    "repository": {
+      "name": "insure-landing-page",
+      "url": "https://github.com/haquanq-frontendmentor/insure-landing-page",
+      "createdAt": "2024-07-03T22:50:42.000Z",
+      "updatedAt": "2025-11-02T17:43:12.000Z"
+    },
+    "topics": ["bem-css", "javascript", "postcss", "sass"],
+    "colors": {
+      "brand": "#2c2a2e"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/only-html-and-css-and-js-Yi2YbXjXGq"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/insure-landing-page/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/insure-landing-page/",
+    "name": "Insure Landing Page"
+  },
+  {
+    "repository": {
+      "name": "qr-code-component",
+      "url": "https://github.com/haquanq-frontendmentor/qr-code-component",
+      "createdAt": "2024-07-05T12:17:18.000Z",
+      "updatedAt": "2025-11-03T12:41:47.000Z"
+    },
+    "topics": ["bem-css", "css", "html"],
+    "colors": {
+      "brand": "#1570FE"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/only-html-and-css-sTTMH-gOKS"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/qr-code-component/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/qr-code-component/",
+    "name": "QR Code Component"
+  },
+  {
+    "repository": {
+      "name": "loopstudios-landing-page",
+      "url": "https://github.com/haquanq-frontendmentor/loopstudios-landing-page",
+      "createdAt": "2024-07-06T14:15:48.000Z",
+      "updatedAt": "2025-11-02T17:44:31.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "html", "javascript", "postcss"],
+    "colors": {
+      "brand": "#222222"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/only-html-and-css-and-js---accessible-mobile-menu-using-tab-esc-oWreKYQQ1S"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/loopstudios-landing-page/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/loopstudios-landing-page/",
+    "name": "Loopstudios Landing Page"
+  },
+  {
+    "repository": {
+      "name": "single-price-grid-component",
+      "url": "https://github.com/haquanq-frontendmentor/single-price-grid-component",
+      "createdAt": "2024-07-07T07:10:44.000Z",
+      "updatedAt": "2025-11-03T08:25:04.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "css", "html"],
+    "colors": {
+      "brand": "#AFCF20"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/pixel-perfect-with-html-and-css-OIXkcxB8sY"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/single-price-grid-component/main/docs/preview.png"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/single-price-grid-component/",
+    "name": "Single Price Grid Component"
+  },
+  {
+    "repository": {
+      "name": "article-preview-component",
+      "url": "https://github.com/haquanq-frontendmentor/article-preview-component",
+      "createdAt": "2024-07-09T01:51:21.000Z",
+      "updatedAt": "2025-11-03T09:38:04.000Z"
+    },
+    "topics": ["bem-css", "css", "html", "javascript"],
+    "colors": {
+      "brand": "#384759"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-pixel-perfect-better-focus-interactions---html-and-css-0hnKwsDRyS"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/article-preview-component/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/article-preview-component/",
+    "name": "Article Preview Component"
+  },
+  {
+    "repository": {
+      "name": "project-tracking-intro-component",
+      "url": "https://github.com/haquanq-frontendmentor/project-tracking-intro-component",
+      "createdAt": "2024-07-09T06:55:37.000Z",
+      "updatedAt": "2025-11-02T17:46:07.000Z"
+    },
+    "topics": ["bem-css", "javascript", "postcss"],
+    "colors": {
+      "brand": "#FF5D5E"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/project-tracking-intro-component-5d289097500fcb331a67d80e",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-pixel-perfect---html-and-css-and-js-01BVtgRs9d"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/project-tracking-intro-component/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/project-tracking-intro-component/",
+    "name": "Project Tracking Intro Component"
+  },
+  {
+    "repository": {
+      "name": "profile-card-component",
+      "url": "https://github.com/haquanq-frontendmentor/profile-card-component",
+      "createdAt": "2024-07-09T14:07:31.000Z",
+      "updatedAt": "2025-11-03T09:56:30.000Z"
+    },
+    "topics": ["bem-css", "css", "html"],
+    "colors": {
+      "brand": "#7B284F"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-pixel-perfect---html-and-css-3YINOyD2qm"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/profile-card-component/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/profile-card-component/",
+    "name": "Profile Card Component"
+  },
+  {
+    "repository": {
+      "name": "coding-bootcamp-testimonials-slider",
+      "url": "https://github.com/haquanq-frontendmentor/coding-bootcamp-testimonials-slider",
+      "createdAt": "2024-07-10T06:14:46.000Z",
+      "updatedAt": "2025-11-02T17:41:53.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "javascript", "postcss"],
+    "colors": {
+      "brand": "#6d28d9"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/coding-bootcamp-testimonials-slider-4FNyLA8JL",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-pixel-perfect-w-html-and-css-and-js-qzkTe5Dfzu"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/coding-bootcamp-testimonials-slider/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/coding-bootcamp-testimonials-slider/",
+    "name": "Coding Bootcamp Testimonials Slider"
+  },
+  {
+    "repository": {
+      "name": "four-card-feature-section",
+      "url": "https://github.com/haquanq-frontendmentor/four-card-feature-section",
+      "createdAt": "2024-07-10T14:48:07.000Z",
+      "updatedAt": "2025-11-03T09:31:11.000Z"
+    },
+    "topics": ["bem-css", "css", "html"],
+    "colors": {
+      "brand": "#222"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-pixel-perfect-w-html-and-css-dMpEhLd6u5"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/four-card-feature-section/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/four-card-feature-section/",
+    "name": "Four Card Feature Section"
+  },
+  {
+    "repository": {
+      "name": "3-column-preview-card-component",
+      "url": "https://github.com/haquanq-frontendmentor/3-column-preview-card-component",
+      "createdAt": "2024-07-12T06:26:58.000Z",
+      "updatedAt": "2025-11-03T10:04:41.000Z"
+    },
+    "topics": ["css", "html"],
+    "colors": {
+      "brand": "#00403F"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/refactored---mobile-first-pixel-perfect-w-html-and-css-qrJULELfTd"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/3-column-preview-card-component/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/3-column-preview-card-component/",
+    "name": "3-Column Preview Card Component"
+  },
+  {
+    "repository": {
+      "name": "fylo-data-storage-component",
+      "url": "https://github.com/haquanq-frontendmentor/fylo-data-storage-component",
+      "createdAt": "2024-07-13T06:26:25.000Z",
+      "updatedAt": "2025-11-02T17:43:02.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "junior", "postcss"],
+    "colors": {
+      "brand": "#0C122C"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/accessible-mobile-first-pixel-perfect-w-html-and-css-iKHvNDZmx3"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/fylo-data-storage-component/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/fylo-data-storage-component/",
+    "name": "Fylo Data Storage Component"
+  },
+  {
+    "repository": {
+      "name": "social-proof-section",
+      "url": "https://github.com/haquanq-frontendmentor/social-proof-section",
+      "createdAt": "2024-07-14T09:03:09.000Z",
+      "updatedAt": "2025-11-03T09:50:21.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "css", "html"],
+    "colors": {
+      "brand": "#511F50"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-pixel-perfect-w-html-and-css-3K4SexI4J3"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/social-proof-section/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/social-proof-section/",
+    "name": "Social Proof Section"
+  },
+  {
+    "repository": {
+      "name": "faq-accordion-card",
+      "url": "https://github.com/haquanq-frontendmentor/faq-accordion-card",
+      "createdAt": "2024-07-16T07:26:49.000Z",
+      "updatedAt": "2025-11-03T05:57:48.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "css", "html", "javascript"],
+    "colors": {
+      "brand": "#6F64E7"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "",
+      "solutionUrl": ""
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/faq-accordion-card/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/faq-accordion-card/",
+    "name": "FAQ Accordion Card"
+  },
+  {
+    "repository": {
+      "name": "interactive-pricing-component",
+      "url": "https://github.com/haquanq-frontendmentor/interactive-pricing-component",
+      "createdAt": "2024-07-18T04:56:19.000Z",
+      "updatedAt": "2025-11-02T17:43:51.000Z"
+    },
+    "topics": ["bem-css", "drag-and-drop", "html", "postcss", "slider"],
+    "colors": {
+      "brand": "#12D7C3"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/custom-range-slider-mobile-first-pixel-perfect-w-html-and-css-and-js--5iksCMzPF"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/interactive-pricing-component/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/interactive-pricing-component/",
+    "name": "Interactive Pricing Component"
+  },
+  {
+    "repository": {
+      "name": "expenses-chart-component",
+      "url": "https://github.com/haquanq-frontendmentor/expenses-chart-component",
+      "createdAt": "2024-07-19T06:43:06.000Z",
+      "updatedAt": "2025-11-02T17:42:40.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "html", "postcss"],
+    "colors": {
+      "brand": "#EC755D"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/accessible-bar-chart-mobile-first-pixel-perfect-w-html-and-css-and-js-WRp-nMHbEe"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/expenses-chart-component/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/expenses-chart-component/",
+    "name": "Expenses Chart Component"
+  },
+  {
+    "repository": {
+      "name": "time-tracking-dashboard",
+      "url": "https://github.com/haquanq-frontendmentor/time-tracking-dashboard",
+      "createdAt": "2024-07-21T06:42:27.000Z",
+      "updatedAt": "2025-11-02T17:47:02.000Z"
+    },
+    "topics": ["bem-css", "html", "postcss"],
+    "colors": {
+      "brand": "#0D1323"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/responsive-time-tracking-dashboard-w-html-and-css-grid-and-js-tkc_S2o02g"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/time-tracking-dashboard/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/time-tracking-dashboard/",
+    "name": "Time Tracking Dashboard"
+  },
+  {
+    "repository": {
+      "name": "tip-calculator-app",
+      "url": "https://github.com/haquanq-frontendmentor/tip-calculator-app",
+      "createdAt": "2024-07-21T08:39:43.000Z",
+      "updatedAt": "2025-11-02T17:47:27.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "html", "postcss"],
+    "colors": {
+      "brand": "#00484C"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/accessible-tip-calculator-w-html---css---js-ToC3Mrer06"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/tip-calculator-app/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/tip-calculator-app/",
+    "name": "Tip Calculator App"
+  },
+  {
+    "repository": {
+      "name": "base-apparel-coming-soon-page",
+      "url": "https://github.com/haquanq-frontendmentor/base-apparel-coming-soon-page",
+      "createdAt": "2024-07-21T15:16:17.000Z",
+      "updatedAt": "2025-11-03T05:40:29.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "css", "html", "javascript"],
+    "colors": {
+      "brand": ""
+    },
+    "featured": false,
+    "frontendmentor": {
+      "challengeUrl": "",
+      "difficulty": "newbie",
+      "solutionUrl": ""
+    },
+    "images": {
+      "preview": ""
+    },
+    "live": "https://haquanq-frontendmentor.github.io/base-apparel-coming-soon-page/",
+    "name": ""
+  },
+  {
+    "repository": {
+      "name": "notifications-page",
+      "url": "https://github.com/haquanq-frontendmentor/notifications-page",
+      "createdAt": "2024-07-23T01:41:29.000Z",
+      "updatedAt": "2025-11-02T17:45:26.000Z"
+    },
+    "topics": ["bem-css", "html", "postcss"],
+    "colors": {
+      "brand": "#08327E"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/responsive-notifications-page-w-css-flexbox---js-gxOfqj8Xoa"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/notifications-page/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/notifications-page/",
+    "name": "Notifications Page"
+  },
+  {
+    "repository": {
+      "name": "crowdfunding-product-page",
+      "url": "https://github.com/haquanq-frontendmentor/crowdfunding-product-page",
+      "createdAt": "2024-07-23T12:54:28.000Z",
+      "updatedAt": "2025-11-02T17:42:25.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "html", "junior", "postcss"],
+    "colors": {
+      "brand": "#3CB4AB"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/crowdfunding-product-page-7uvcZe7ZR",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/responsive-crowdfunding-product-page-w-html---css---js-YAZO6t5gId"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/crowdfunding-product-page/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/crowdfunding-product-page/",
+    "name": "Crowdfunding Product Page"
+  },
+  {
+    "repository": {
+      "name": "intro-section-with-dropdown-navigation",
+      "url": "https://github.com/haquanq-frontendmentor/intro-section-with-dropdown-navigation",
+      "createdAt": "2024-07-24T13:21:54.000Z",
+      "updatedAt": "2025-11-02T17:44:12.000Z"
+    },
+    "topics": ["bem-css", "html", "postcss"],
+    "colors": {
+      "brand": "#222222"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/accessible-menu-with-dropdown-section-w-html---css-flexbox---js-bdGhOmZFJD"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/intro-section-with-dropdown-navigation/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/intro-section-with-dropdown-navigation/",
+    "name": "Intro Section With Dropdown navigation"
+  },
+  {
+    "repository": {
+      "name": "interactive-card-details-form",
+      "url": "https://github.com/haquanq-frontendmentor/interactive-card-details-form",
+      "createdAt": "2024-07-25T12:57:38.000Z",
+      "updatedAt": "2025-11-02T17:43:25.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "html", "postcss"],
+    "colors": {
+      "brand": "#220930"
+    },
+    "featured": true,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/smooth-responsive-cards-interactive-form-w-html---css---js-SPJViWGCqY"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/interactive-card-details-form/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/interactive-card-details-form/",
+    "name": "Interactive Card Details Form"
+  },
+  {
+    "repository": {
+      "name": "ping-coming-soon-page",
+      "url": "https://github.com/haquanq-frontendmentor/ping-coming-soon-page",
+      "createdAt": "2024-07-26T06:12:12.000Z",
+      "updatedAt": "2025-11-03T07:56:08.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "css", "html", "javascript"],
+    "colors": {
+      "brand": "#4D7BF3"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-w-css-media-query---html---js-Jj7nalNHsW"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/ping-coming-soon-page/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/ping-coming-soon-page/",
+    "name": "Ping Coming Soon Page"
+  },
+  {
+    "repository": {
+      "name": "huddle-single-introductory-section",
+      "url": "https://github.com/haquanq-frontendmentor/huddle-single-introductory-section",
+      "createdAt": "2024-07-27T09:35:35.000Z",
+      "updatedAt": "2025-11-03T12:48:30.000Z"
+    },
+    "topics": ["bem-css", "css", "html"],
+    "colors": {
+      "brand": "#674BB1"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/responsive-introductory-section-w-html---css-WnBPD2qFSK"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/huddle-single-introductory-section/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/huddle-single-introductory-section/",
+    "name": "Huddle Single Introductory Section"
+  },
+  {
+    "repository": {
+      "name": "intro-component-with-sign-up-form",
+      "url": "https://github.com/haquanq-frontendmentor/intro-component-with-sign-up-form",
+      "createdAt": "2024-07-27T10:19:08.000Z",
+      "updatedAt": "2025-11-03T13:30:28.000Z"
+    },
+    "topics": ["accessibility", "bem-css", "css", "html"],
+    "colors": {
+      "brand": "#E95352"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "newbie",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/interactive-signup-form-w-html---css---js-bRn7Tf47Qv"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/intro-component-with-sign-up-form/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/intro-component-with-sign-up-form/",
+    "name": "Intro Component With Sign Up Form"
+  },
+  {
+    "repository": {
+      "name": "launch-countdown-timer",
+      "url": "https://github.com/haquanq-frontendmentor/launch-countdown-timer",
+      "createdAt": "2024-07-31T04:27:29.000Z",
+      "updatedAt": "2025-11-03T05:01:14.000Z"
+    },
+    "topics": ["solidjs", "tailwindcss"],
+    "colors": {
+      "brand": "#1E1E28"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "intermediate",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/animated-number-flipper-with-css-custom-properties-azN_wVvCQd"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/launch-countdown-timer/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/launch-countdown-timer/",
+    "name": "Lauch Countdown Timer"
+  },
+  {
+    "repository": {
+      "name": "bento-grid",
+      "url": "https://github.com/haquanq-frontendmentor/bento-grid",
+      "createdAt": "2024-09-23T06:32:53.000Z",
+      "updatedAt": "2025-11-02T15:29:40.000Z"
+    },
+    "topics": ["css", "html", "postcss", "stylelint"],
+    "colors": {
+      "brand": "#FFDA66"
+    },
+    "featured": true,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/responsive-grid-with-a-lot-of-custom-modifications-that-make-me-feel-UM6jMutJrb"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/bento-grid/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/bento-grid/",
+    "name": "Bento Grid"
+  },
+  {
+    "repository": {
+      "name": "fylo-dark-theme-landing-page",
+      "url": "https://github.com/haquanq-frontendmentor/fylo-dark-theme-landing-page",
+      "createdAt": "2025-07-15T18:45:24.000Z",
+      "updatedAt": "2025-11-02T17:42:49.000Z"
+    },
+    "topics": ["bem-css", "html5", "postcss"],
+    "colors": {
+      "brand": "#181E2A"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-without-zero-media-queries-vhMhfqkhn3"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/fylo-dark-theme-landing-page/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/fylo-dark-theme-landing-page/",
+    "name": "Fylo Dark Theme Landing Page"
+  },
+  {
+    "repository": {
+      "name": "clipboard-landing-page",
+      "url": "https://github.com/haquanq-frontendmentor/clipboard-landing-page",
+      "createdAt": "2025-07-17T04:55:32.000Z",
+      "updatedAt": "2025-11-02T17:41:43.000Z"
+    },
+    "topics": ["bem-css", "postcss", "stylelint"],
+    "colors": {
+      "brand": "#26BBA5"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-with-pixel-perfect-landing-page-SWORns4njk"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/clipboard-landing-page/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/clipboard-landing-page/",
+    "name": "Clipboard Landing Page"
+  },
+  {
+    "repository": {
+      "name": "product-list-with-cart",
+      "url": "https://github.com/haquanq-frontendmentor/product-list-with-cart",
+      "createdAt": "2025-07-21T16:43:40.000Z",
+      "updatedAt": "2025-11-02T17:45:50.000Z"
+    },
+    "topics": ["bem-css", "postcss"],
+    "colors": {
+      "brand": "#C83B0E"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/accessible-cart-with-keyboard-navigation-zero-media-queries-ooLZnPPDNC"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/product-list-with-cart/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/product-list-with-cart/",
+    "name": "Product List With Cart"
+  },
+  {
+    "repository": {
+      "name": "browser-extensions-manager-ui",
+      "url": "https://github.com/haquanq-frontendmentor/browser-extensions-manager-ui",
+      "createdAt": "2025-09-13T02:01:25.000Z",
+      "updatedAt": "2025-11-02T17:41:32.000Z"
+    },
+    "topics": ["bem-css", "junior", "postcss"],
+    "colors": {
+      "brand": "#C8231A"
+    },
+    "featured": true,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/browser-extension-manager-ui-yNZnOfsMAp",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/dynamic-rendering-using-vanilla-jsts-mobile-first-responsive-hz3HLTQIHW"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/browser-extensions-manager-ui/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/browser-extensions-manager-ui/",
+    "name": "Browser Extensions Manager UI"
+  },
+  {
+    "repository": {
+      "name": "sunnyside-agency-landing-page",
+      "url": "https://github.com/haquanq-frontendmentor/sunnyside-agency-landing-page",
+      "createdAt": "2025-09-18T06:40:15.000Z",
+      "updatedAt": "2025-11-02T17:46:26.000Z"
+    },
+    "topics": ["bem-css", "html", "postcss"],
+    "colors": {
+      "brand": "#3CBDFE"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/agency-landing-page-7yVs3B6ef",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-sunnyside-agency-landing-page-otDKiqUyqG"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/sunnyside-agency-landing-page/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/sunnyside-agency-landing-page/",
+    "name": "Sunnyside Agency Landing Page"
+  },
+  {
+    "repository": {
+      "name": "conference-ticket-generator",
+      "url": "https://github.com/haquanq-frontendmentor/conference-ticket-generator",
+      "createdAt": "2025-09-19T06:40:58.000Z",
+      "updatedAt": "2025-11-02T17:42:03.000Z"
+    },
+    "topics": ["bem-css", "postcss"],
+    "colors": {
+      "brand": "#260161"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/conference-ticket-generator-oq5gFIU12w",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/accessible-conference-ticket-generator-form-mobile-first-responsive-7AHxXMK-cQ"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/conference-ticket-generator/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/conference-ticket-generator/",
+    "name": "Conference Ticket Generator"
+  },
+  {
+    "repository": {
+      "name": "blogr-landing-page",
+      "url": "https://github.com/haquanq-frontendmentor/blogr-landing-page",
+      "createdAt": "2025-09-22T09:13:22.000Z",
+      "updatedAt": "2025-11-02T09:27:29.000Z"
+    },
+    "topics": ["bem-css", "html", "postcss"],
+    "colors": {
+      "brand": "#ff4256"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "junior",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-responsive-landing-page-with-dropdownexpand-collapse-submenus-seYct7msx4"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/blogr-landing-page/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/blogr-landing-page/",
+    "name": "Blogr Landing Page"
+  },
+  {
+    "repository": {
+      "name": "url-shortening-api-landing-page",
+      "url": "https://github.com/haquanq-frontendmentor/url-shortening-api-landing-page",
+      "createdAt": "2025-09-24T11:02:28.000Z",
+      "updatedAt": "2025-11-03T05:02:56.000Z"
+    },
+    "topics": ["shortener", "svelte", "tailwindcss"],
+    "colors": {
+      "brand": "#2CD0CF"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "intermediate",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-url-shortener-app-with-svelte-tailwindcss-PeMPNUSjsj"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/url-shortening-api-landing-page/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/url-shortening-api-landing-page/",
+    "name": "URL Shortening API Landing Page"
+  },
+  {
+    "repository": {
+      "name": "bookmark-landing-page",
+      "url": "https://github.com/haquanq-frontendmentor/bookmark-landing-page",
+      "createdAt": "2025-09-25T11:02:25.000Z",
+      "updatedAt": "2025-11-02T17:35:21.000Z"
+    },
+    "topics": ["accordion", "svelte", "tailwindcss"],
+    "colors": {
+      "brand": "#5266DF"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "intermediate",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-with-pixel-perfect-2tpwkGoHf1"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/bookmark-landing-page/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/bookmark-landing-page/",
+    "name": "Bookmark Landing Page"
+  },
+  {
+    "repository": {
+      "name": "manage-landing-page",
+      "url": "https://github.com/haquanq-frontendmentor/manage-landing-page",
+      "createdAt": "2025-09-26T05:55:44.000Z",
+      "updatedAt": "2025-11-03T05:01:30.000Z"
+    },
+    "topics": ["carousel", "svelte", "tailwindcss"],
+    "colors": {
+      "brand": "#F36A48"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "intermediate",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/interactive-testimonials-carousel-mobile-first-pixel-perfect-7jVXuO2Pbq"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/manage-landing-page/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/manage-landing-page/",
+    "name": "Manage Landing Page"
+  },
+  {
+    "repository": {
+      "name": "digitalbank-landing-page",
+      "url": "https://github.com/haquanq-frontendmentor/digitalbank-landing-page",
+      "createdAt": "2025-09-28T16:27:15.000Z",
+      "updatedAt": "2025-11-03T04:59:12.000Z"
+    },
+    "topics": ["svelte", "tailwindcss"],
+    "colors": {
+      "brand": "#38C6B0"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "intermediate",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/digital-bank-landing-page-WaUhkoDN",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-bank-landing-page-pixel-perfect-A6TtHuPkho"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/digitalbank-landing-page/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/digitalbank-landing-page/",
+    "name": "Digitalbank Landing Page"
+  },
+  {
+    "repository": {
+      "name": "job-listings-with-filtering",
+      "url": "https://github.com/haquanq-frontendmentor/job-listings-with-filtering",
+      "createdAt": "2025-09-29T07:03:59.000Z",
+      "updatedAt": "2025-11-03T05:00:53.000Z"
+    },
+    "topics": ["solidjs", "tailwindcss"],
+    "colors": {
+      "brand": "#5F9C95"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "intermediate",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/interactive-job-listings-with-filter-using-solidjs-eV34CncHY-"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/job-listings-with-filtering/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/job-listings-with-filtering/",
+    "name": "Job Listings With Filtering"
+  },
+  {
+    "repository": {
+      "name": "chat-app-css-illustration",
+      "url": "https://github.com/haquanq-frontendmentor/chat-app-css-illustration",
+      "createdAt": "2025-10-03T15:38:36.000Z",
+      "updatedAt": "2025-11-03T04:58:36.000Z"
+    },
+    "topics": ["solidjs", "tailwindcss"],
+    "colors": {
+      "brand": "#AE3DFD"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "intermediate",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/interactive-chat-app-that-will-response-to-your-message-fUTvuvvARQ"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/chat-app-css-illustration/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/chat-app-css-illustration/",
+    "name": "Chat App CSS Illustration"
+  },
+  {
+    "repository": {
+      "name": "room-homepage",
+      "url": "https://github.com/haquanq-frontendmentor/room-homepage",
+      "createdAt": "2025-10-08T16:42:09.000Z",
+      "updatedAt": "2025-11-03T05:01:56.000Z"
+    },
+    "topics": ["draggable", "slider", "solidjs", "tailwindcss"],
+    "colors": {
+      "brand": "#222222"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "intermediate",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/interactive-slider-using-vanilla-tsjs-mobile-first-responsive-grid-3Msvq2oGke"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/room-homepage/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/room-homepage/",
+    "name": "Room Homepage"
+  },
+  {
+    "repository": {
+      "name": "todo-app",
+      "url": "https://github.com/haquanq-frontendmentor/todo-app",
+      "createdAt": "2025-10-08T19:02:39.000Z",
+      "updatedAt": "2025-11-03T05:02:28.000Z"
+    },
+    "topics": ["tailwindcss", "vue"],
+    "colors": {
+      "brand": "#79A1FF"
+    },
+    "featured": true,
+    "frontendmentor": {
+      "difficulty": "intermediate",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/interactive-todo-app-using-vue-tailwindcss-CRfX0_XLo6"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/todo-app/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/todo-app/",
+    "name": "Todo App"
+  },
+  {
+    "repository": {
+      "name": "multi-step-form",
+      "url": "https://github.com/haquanq-frontendmentor/multi-step-form",
+      "createdAt": "2025-10-10T13:20:19.000Z",
+      "updatedAt": "2025-11-02T17:28:35.000Z"
+    },
+    "topics": ["react", "react-hook-form", "tailwindcss"],
+    "colors": {
+      "brand": "#493EFF"
+    },
+    "featured": true,
+    "frontendmentor": {
+      "difficulty": "advanced",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/accessible-multi-step-form-using-react-hook-form-nZs-a7E8lA"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/multi-step-form/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/multi-step-form/",
+    "name": "Multi-step Form",
+    "colors:": {
+      "brand": "#493EFF"
+    }
+  },
+  {
+    "repository": {
+      "name": "ecommerce-product-page",
+      "url": "https://github.com/haquanq-frontendmentor/ecommerce-product-page",
+      "createdAt": "2025-10-11T05:28:55.000Z",
+      "updatedAt": "2025-11-03T04:59:54.000Z"
+    },
+    "topics": ["embla-carousel", "slider", "solidjs", "tailwindcss"],
+    "colors": {
+      "brand": "#DB6F2F"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "intermediate",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/interactive-slider-using-embla-carousel-for-product-images--r2zcgKtIE"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/ecommerce-product-page/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/ecommerce-product-page/",
+    "name": "Ecommerce Product Page"
+  },
+  {
+    "repository": {
+      "name": "calculator-app",
+      "url": "https://github.com/haquanq-frontendmentor/calculator-app",
+      "createdAt": "2025-10-12T13:28:42.000Z",
+      "updatedAt": "2025-11-02T17:35:48.000Z"
+    },
+    "topics": ["tailwindcss", "vue"],
+    "colors": {
+      "brand": "#1E0934"
+    },
+    "featured": true,
+    "frontendmentor": {
+      "difficulty": "intermediate",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/interactive-calculator-with-keyboard-navigation-3-themes-t3XCAeHlEY"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/calculator-app/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/calculator-app/",
+    "name": "Calculator App"
+  },
+  {
+    "repository": {
+      "name": "rest-countries-api",
+      "url": "https://github.com/haquanq-frontendmentor/rest-countries-api",
+      "createdAt": "2025-10-13T13:24:14.000Z",
+      "updatedAt": "2025-11-02T16:33:10.000Z"
+    },
+    "topics": ["react", "rest-countries-api", "tailwindcss"],
+    "colors": {
+      "brand": "#212E37"
+    },
+    "featured": true,
+    "frontendmentor": {
+      "difficulty": "advanced",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/explore-countries-all-over-the-worlds-LNQ_eHbXia"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/rest-countries-api/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/rest-countries-api/",
+    "name": "Rest Countries API",
+    "colors:": {
+      "brand": "#212E37"
+    }
+  },
+  {
+    "repository": {
+      "name": "rock-paper-scissors",
+      "url": "https://github.com/haquanq-frontendmentor/rock-paper-scissors",
+      "createdAt": "2025-10-17T03:37:51.000Z",
+      "updatedAt": "2025-11-02T16:36:14.000Z"
+    },
+    "topics": ["react", "tailwindcss", "zustand"],
+    "colors": {
+      "brand": "#182445"
+    },
+    "featured": true,
+    "frontendmentor": {
+      "difficulty": "advanced",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/halloween-theme-based-hand-game-with-react-zustand-SPS7Dl6hJ0"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/rock-paper-scissors/main/docs/preview.png"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/rock-paper-scissors/",
+    "name": "Rock Paper Scissors",
+    "colors:": {
+      "brand": "#182445"
+    }
+  },
+  {
+    "repository": {
+      "name": "interactive-comments-section",
+      "url": "https://github.com/haquanq-frontendmentor/interactive-comments-section",
+      "createdAt": "2025-10-19T16:44:20.000Z",
+      "updatedAt": "2025-11-03T05:00:19.000Z"
+    },
+    "topics": ["pinia", "tailwind", "vue"],
+    "colors": {
+      "brand": "#5358B6"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "intermediate",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-interactive-comments-section-with-vue-pinia-vcBwh9B1PL"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/interactive-comments-section/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/interactive-comments-section/",
+    "name": "Interactive Comments Section"
+  },
+  {
+    "repository": {
+      "name": "weather-app",
+      "url": "https://github.com/haquanq-frontendmentor/weather-app",
+      "createdAt": "2025-10-21T05:48:48.000Z",
+      "updatedAt": "2025-11-03T05:03:24.000Z"
+    },
+    "topics": ["openmeteo", "pinia", "primevue", "tailwindcss", "vue"],
+    "colors": {
+      "brand": "#4455DA"
+    },
+    "featured": true,
+    "frontendmentor": {
+      "difficulty": "intermediate",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/weather-app-K1FhddVm49",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/weather-app-using-un-styled-primevue-vue-tailwindcss-with-themes-hHrLLJlec6"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/weather-app/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/weather-app/",
+    "name": "Weather App"
+  },
+  {
+    "repository": {
+      "name": "space-tourism-app",
+      "url": "https://github.com/haquanq-frontendmentor/space-tourism-app",
+      "createdAt": "2025-10-25T14:58:55.000Z",
+      "updatedAt": "2025-11-03T05:02:09.000Z"
+    },
+    "topics": ["nextjs", "ssg", "tailwindcss"],
+    "colors": {
+      "brand": "#0B0D19"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "intermediate",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/static-site-generation-with-nextjs-mobile-first-responsive-Ala9Eyc1bh"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/space-tourism-app/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/space-tourism-app/",
+    "name": "Space Tourism Website"
+  },
+  {
+    "repository": {
+      "name": "ip-address-tracker",
+      "url": "https://github.com/haquanq-frontendmentor/ip-address-tracker",
+      "createdAt": "2025-10-28T15:53:44.000Z",
+      "updatedAt": "2025-11-03T05:00:37.000Z"
+    },
+    "topics": ["geolocation", "leafletjs", "pinia", "tailwindcss", "vue"],
+    "colors": {
+      "brand": "#47449F"
+    },
+    "featured": false,
+    "frontendmentor": {
+      "difficulty": "intermediate",
+      "challengeUrl": "https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/track-ip-addressdomain-with-ip-apicom-DlGXrXnH9j"
+    },
+    "images": {
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/ip-address-tracker/main/docs/preview.jpg"
+    },
+    "live": "https://haquanq-frontendmentor.github.io/ip-address-tracker/",
+    "name": "IP Address Tracker"
+  },
+  {
+    "repository": {
+      "name": "portal",
+      "url": "https://github.com/haquanq-frontendmentor/portal",
+      "createdAt": "2025-10-29T13:29:33.000Z",
+      "updatedAt": "2025-11-02T20:49:02.000Z"
+    },
+    "topics": ["nextjs", "tailwindcss", "zustand"],
+    "colors": {
+      "brand": ""
+    },
+    "featured": false,
+    "frontendmentor": {
+      "challengeUrl": "",
+      "difficulty": "newbie",
+      "solutionUrl": ""
+    },
+    "images": {
+      "preview": ""
+    },
+    "live": "",
+    "name": ""
+  }
+]
