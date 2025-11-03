@@ -9,6 +9,7 @@ interface SolutionCardProps {
 }
 
 export const SolutionCard = ({ solution }: SolutionCardProps) => {
+  if (solution.colors.brand === "") solution.colors.brand = "#222";
   return (
     <div className="flex flex-col gap-5">
       <a
@@ -27,10 +28,7 @@ export const SolutionCard = ({ solution }: SolutionCardProps) => {
         <span
           className="absolute inset-0 block rounded-xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"
           style={{
-            boxShadow:
-              solution.colors.brand !== ""
-                ? `0 4px 28px -12px rgba(${hexToRgb(solution.colors.brand).join(",")}, 0.75)`
-                : undefined,
+            boxShadow: `0 4px 28px -12px rgba(${hexToRgb(solution.colors.brand).join(",")}, 0.75)`,
           }}
         ></span>
         <span className="absolute inset-0 z-10 block rounded-xl inset-ring-2 inset-ring-gray-200"></span>
