@@ -17,11 +17,6 @@ export const getAllSolutions = async () => {
     const fetchMetadata = async (repoName: string) => {
         const res = await fetch(
             `https://raw.githubusercontent.com/haquanq-frontendmentor/${repoName}/main/portal.json`,
-            {
-                headers: {
-                    "Content-Type": "application/json",
-                },
-            },
         );
 
         if (res.status !== 200) return {};
@@ -65,6 +60,5 @@ export const getAllSolutions = async () => {
             colors: metadata["colors"] || metadata["color"] || metadata["colors:"] || temp.colors,
         });
     }
-
     return solutions;
 };
