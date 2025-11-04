@@ -1,10 +1,10 @@
-import { Solution } from "@/$types/Solution";
 import { SolutionCard } from "@/components/Solution/SolutionCard";
+import { DifficultyLevels, Solution } from "@/services/Solution/types";
 import { MoveRightIcon } from "lucide-react";
 import Link from "next/link";
 
 interface SolutionSummaryByDifficultyProps {
-  difficulty: string;
+  difficulty: DifficultyLevels;
   solutions: Solution[];
   challengeCount: number;
 }
@@ -34,7 +34,7 @@ export const SolutionSummaryByDifficulty = ({
           ))}
       </ul>
       <div className="flex items-center gap-4 text-gray-900">
-        <Link className="text-base underline" href="">
+        <Link className="text-base underline" href={`/solutions?difficulty=${difficulty}`}>
           View all {difficulty} challenge solutions
         </Link>
         <MoveRightIcon strokeWidth={1.5} />
