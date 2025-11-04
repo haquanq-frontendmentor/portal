@@ -20,7 +20,7 @@ export const SolutionFilterTopic = () => {
 
   return (
     <div>
-      <Collapsible.Root className="flex flex-col justify-center text-gray-900">
+      <Collapsible.Root className="flex flex-col justify-center text-gray-900 dark:text-gray-50">
         <Collapsible.Trigger className="group rounded-lg">
           <Button className="w-full" size="medium" variant="secondary" asWrapper>
             Filter by {topics.length !== 0 && topics.length} topics
@@ -37,31 +37,26 @@ export const SolutionFilterTopic = () => {
                   Topics
                 </label>
                 <Combobox.Chips
-                  className="flex w-full flex-wrap items-center justify-center gap-1.5 rounded-lg p-1.5 font-medium text-gray-900 inset-ring inset-ring-gray-200 focus-within:-outline-offset-1 focus-within:outline-blue-800"
+                  className="flex w-full flex-wrap items-center justify-center gap-1.5 rounded-lg p-1.5 font-medium text-gray-900 inset-ring inset-ring-gray-200 focus-within:inset-ring-gray-50 dark:text-gray-50 dark:inset-ring-gray-600"
                   ref={containerRef}
                 >
                   <Combobox.Value>
                     {(values: string[]) => (
                       <>
                         {values.map((value) => (
-                          <Combobox.Chip
-                            key={value}
-                            className="flex cursor-default items-center gap-1 rounded-md bg-gray-50 py-1 pr-1 pl-2 text-gray-900 inset-ring inset-ring-gray-100 outline-none focus-within:inset-ring-gray-900"
-                            aria-label={value}
-                          >
-                            {value}
-                            <Combobox.ChipRemove
-                              className="rounded-sm text-inherit hover:bg-gray-200"
-                              aria-label="Remove"
-                            >
-                              <XIcon strokeWidth={1.5} />
-                            </Combobox.ChipRemove>
+                          <Combobox.Chip className="outline-none" key={value} aria-label={value}>
+                            <Button asWrapper size="small" variant="secondary" className="py-1 pr-1 pl-2">
+                              {value}
+                              <Combobox.ChipRemove className="rounded-sm hover:bg-gray-200" aria-label="Remove">
+                                <XIcon strokeWidth={1.5} />
+                              </Combobox.ChipRemove>
+                            </Button>
                           </Combobox.Chip>
                         ))}
                         <Combobox.Input
                           id={inputId}
                           placeholder={values.length > 0 ? "" : "e.g. React"}
-                          className="h-8 flex-1 rounded-md border-0 bg-transparent pl-2 text-base text-gray-900 outline-none"
+                          className="h-8 flex-1 rounded-md border-0 bg-transparent pl-2 text-base text-gray-900 outline-none dark:text-gray-50"
                         />
                       </>
                     )}
@@ -79,7 +74,7 @@ export const SolutionFilterTopic = () => {
 
               <Combobox.Portal>
                 <Combobox.Positioner className="z-50 outline-none" sideOffset={16} anchor={containerRef} align="start">
-                  <Combobox.Popup className="max-h-[min(var(--available-height),23rem)] w-75 origin-(--transform-origin) scroll-pt-2 scroll-pb-2 overflow-y-auto overscroll-contain rounded-md bg-[canvas] py-2 text-gray-900 shadow-2xl outline-1 outline-gray-200 transition-[transform,scale,opacity] data-ending-style:scale-95 data-ending-style:opacity-0 data-starting-style:scale-95 data-starting-style:opacity-0">
+                  <Combobox.Popup className="max-h-[min(var(--available-height),23rem)] w-75 origin-(--transform-origin) scroll-pt-2 scroll-pb-2 overflow-y-auto overscroll-contain rounded-md bg-[canvas] py-2 text-gray-900 shadow-2xl outline outline-gray-200 transition-[transform,scale,opacity] data-ending-style:scale-95 data-ending-style:opacity-0 data-starting-style:scale-95 data-starting-style:opacity-0 dark:bg-gray-900 dark:text-gray-50 dark:outline-gray-500">
                     <Combobox.Empty className="px-4 py-2 text-[0.925rem] leading-4 text-gray-600 empty:m-0 empty:p-0">
                       No match
                     </Combobox.Empty>
@@ -87,7 +82,7 @@ export const SolutionFilterTopic = () => {
                       {(value: string) => (
                         <Combobox.Item
                           key={value}
-                          className="flex items-center justify-between gap-2 px-4 py-2 outline-none select-none data-highlighted:relative data-highlighted:z-0 data-highlighted:before:absolute data-highlighted:before:inset-x-2 data-highlighted:before:inset-y-0 data-highlighted:before:z-[-1] data-highlighted:before:rounded-md data-highlighted:before:bg-gray-50"
+                          className="flex items-center justify-between gap-2 px-4 py-2 outline-none select-none data-highlighted:relative data-highlighted:z-0 data-highlighted:before:absolute data-highlighted:before:inset-x-2 data-highlighted:before:inset-y-0 data-highlighted:before:z-[-1] data-highlighted:before:rounded-md data-highlighted:before:bg-gray-50 dark:data-highlighted:before:bg-gray-800"
                           value={value}
                         >
                           <div className="col-start-2">{value}</div>

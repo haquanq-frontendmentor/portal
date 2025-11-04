@@ -13,12 +13,12 @@ export const SolutionFilterName = () => {
   };
 
   return (
-    <div className="relative flex items-center text-gray-900">
+    <div className="relative flex items-center text-gray-900 dark:text-gray-50">
       <label className="sr-only" htmlFor={inputId}>
         Search by solution name
       </label>
       <input
-        className="h-12 w-[min(25rem,100vw-3rem)] rounded-lg px-4 font-medium inset-ring inset-ring-gray-200 transition-shadow hover:inset-ring-gray-900"
+        className="h-12 w-[min(25rem,100vw-3rem)] rounded-lg px-4 font-medium inset-ring inset-ring-gray-200 transition-shadow placeholder:text-gray-500 hover:inset-ring-gray-900 dark:inset-ring-gray-600 dark:placeholder:text-gray-400 dark:hover:inset-ring-gray-50"
         id={inputId}
         type="text"
         value={solutionName}
