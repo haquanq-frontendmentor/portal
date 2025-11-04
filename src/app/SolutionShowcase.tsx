@@ -32,10 +32,10 @@ export const SolutionShowcase = () => {
       <ContainerLayout>
         <div className="pt-25 pb-40 sm:pt-40">
           <div className="mb-20 flex flex-col items-center gap-4 text-center sm:mb-30 sm:gap-8">
-            <h2 className="text-[clamp(2rem,0.0916rem+8.1425vw,4rem)] leading-[clamp(2.5rem,0.5916rem+8.1425vw,4.5rem)] font-bold text-gray-900">
+            <h2 className="text-[clamp(2rem,0.0916rem+8.1425vw,4rem)] leading-[clamp(2.5rem,0.5916rem+8.1425vw,4.5rem)] font-bold text-gray-900 dark:text-gray-50">
               Solutions
             </h2>
-            <div className="h-0.5 w-12 bg-gray-900 sm:w-20"></div>
+            <div className="h-0.5 w-12 bg-gray-900 sm:w-20 dark:bg-gray-50"></div>
           </div>
           <div className="flex flex-col gap-25">
             {challengeDifficultyLevels.map((v) => (

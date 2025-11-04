@@ -15,7 +15,7 @@ export const SolutionSummaryByDifficulty = ({
   challengeCount,
 }: SolutionSummaryByDifficultyProps) => {
   return (
-    <section className="flex flex-col items-center">
+    <section className="flex flex-col items-center text-gray-900 dark:text-gray-50">
       <div className="mb-10 flex w-full flex-col gap-3">
         <h3 className="text-sm leading-6 capitalize">
           {difficulty} <span className="sr-only">challenges</span>

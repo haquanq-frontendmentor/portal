@@ -5,7 +5,7 @@ import { Tooling } from "./Tooling";
 
 export default async function Home() {
   return (
-    <main>
+    <main className="bg-white dark:bg-gray-900">
       <Intro />
       <Tooling />
       <SolutionShowcase />

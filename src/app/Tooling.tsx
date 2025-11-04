@@ -3,7 +3,7 @@ import { appConfig } from "@/configs/appConfig";
 
 export const Tooling = () => {
   return (
-    <section className="bg-gray-50/50 py-16">
+    <section className="bg-gray-50/50 py-16 dark:bg-gray-800/50">
       <ContainerLayout>
         <div className="flex flex-col gap-16 [&_a]:block">
           <h2 className="sr-only">Tools</h2>
