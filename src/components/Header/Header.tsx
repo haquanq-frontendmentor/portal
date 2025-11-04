@@ -36,11 +36,11 @@ export const Header = () => {
   }, []);
 
   return (
-    <header className="relative z-999 bg-white">
+    <header className="relative z-999 bg-white dark:bg-gray-900">
       <ContainerLayout>
-        <div className="flex items-center justify-between py-5 sm:py-8">
+        <div className="flex items-center justify-between py-5 text-gray-900 sm:py-8 dark:text-gray-50">
           <a
-            className="text-xl font-bold text-gray-900"
+            className="text-xl font-bold"
             href="https://github.com/haquanq"
             target="_blank"
             aria-label="Haquanq Github"
@@ -51,7 +51,7 @@ export const Header = () => {
             <Nav />
             <ThemeToggle />
             <a
-              className="block text-gray-900"
+              className="block"
               href="https://github.com/haquanq-frontendmentor"
               target="_blank"
               aria-label="Organization repository"

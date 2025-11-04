@@ -66,7 +66,7 @@ export const Nav = () => {
   return (
     <nav className="flex justify-center md:grow">
       <button
-        className="flex items-center text-gray-900 md:hidden"
+        className="flex items-center text-gray-900 md:hidden dark:text-gray-50"
         type="button"
         aria-label="Mobile menu"
         aria-expanded={menuOpen}
@@ -79,7 +79,7 @@ export const Nav = () => {
       <FocusTrap isDisabled={!menuOpen}>
         <div
           className={cn(
-            "absolute inset-x-0 top-full hidden h-[calc(100vh-100%)] bg-gray-900/25",
+            "absolute inset-x-0 top-full hidden h-[calc(100vh-100%)] bg-gray-900/25 dark:bg-gray-50/10",
             menuOpen && "block",
             "md:static md:inset-0 md:block md:h-auto md:bg-transparent",
           )}
@@ -87,17 +87,17 @@ export const Nav = () => {
           onClick={handleMenuBackdropClick}
         >
           <div
-            className="mx-auto my-6 w-[min(100vw-3rem,25rem)] rounded-lg bg-white p-6 md:m-auto md:w-auto md:p-0"
+            className="mx-auto my-6 w-[min(100vw-3rem,25rem)] rounded-lg bg-white p-6 md:m-auto md:w-auto md:p-0 dark:bg-gray-900"
             onClick={handleMenuBackgroundClick}
             onKeyDown={handleMenuBackgroundKeydown}
           >
-            <ul className="flex flex-col items-center gap-4 text-lg font-medium text-gray-500 md:flex-row md:gap-6">
+            <ul className="flex flex-col items-center gap-4 text-lg font-medium text-gray-500 md:flex-row md:gap-6 dark:text-gray-400">
               {routes.map((v, index) => (
                 <li className="" key={"nav-link-" + index}>
                   <Link
                     className={cn(
                       "group relative flex items-center gap-2 px-1 capitalize hover:underline",
-                      pathname === v.to && "text-gray-900",
+                      pathname === v.to && "text-gray-900 dark:text-white",
                       v.icon && "pr-0",
                     )}
                     href={v.to}
