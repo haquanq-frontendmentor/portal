@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
     },
     output: process.env.NEXT_CONFIG_OUTPUT as NextConfig["output"],
     distDir: process.env.NEXT_CONFIG_DISTDIR,
+    basePath: "/portal",
 };
 
 export default nextConfig;
