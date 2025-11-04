@@ -27,9 +27,9 @@
       "name": "results-summary-component",
       "url": "https://github.com/haquanq-frontendmentor/results-summary-component",
       "createdAt": "2024-05-27T07:02:37.000Z",
-      "updatedAt": "2025-11-03T07:40:42.000Z"
+      "updatedAt": "2025-11-03T21:04:42.000Z"
     },
-    "topics": ["bem-css", "css", "html"],
+    "topics": ["bem-css", "vanilla-css"],
     "colors": {
       "brand": "#332DE9"
     },
@@ -50,9 +50,9 @@
       "name": "order-summary-card",
       "url": "https://github.com/haquanq-frontendmentor/order-summary-card",
       "createdAt": "2024-05-27T12:54:39.000Z",
-      "updatedAt": "2025-11-03T13:21:54.000Z"
+      "updatedAt": "2025-11-03T21:07:44.000Z"
     },
-    "topics": ["accessibility", "bem-css", "css", "html"],
+    "topics": ["bem-css", "vanilla-css"],
     "colors": {
       "brand": "#382BE1"
     },
@@ -73,9 +73,9 @@
       "name": "product-preview-card-component",
       "url": "https://github.com/haquanq-frontendmentor/product-preview-card-component",
       "createdAt": "2024-05-27T13:18:11.000Z",
-      "updatedAt": "2025-11-03T13:23:21.000Z"
+      "updatedAt": "2025-11-03T21:06:17.000Z"
     },
-    "topics": ["accessiblity", "bem-css", "css", "html"],
+    "topics": ["bem-css", "vanilla-css"],
     "colors": {
       "brand": "#3F8067"
     },
@@ -96,9 +96,9 @@
       "name": "nft-preview-card-component",
       "url": "https://github.com/haquanq-frontendmentor/nft-preview-card-component",
       "createdAt": "2024-05-28T06:08:28.000Z",
-      "updatedAt": "2025-11-03T13:23:59.000Z"
+      "updatedAt": "2025-11-03T21:08:03.000Z"
     },
-    "topics": ["bem-css", "css", "html"],
+    "topics": ["bem-css", "vanilla-css"],
     "colors": {
       "brand": "#11BAC0"
     },
@@ -119,9 +119,9 @@
       "name": "newsletter-sign-up-form",
       "url": "https://github.com/haquanq-frontendmentor/newsletter-sign-up-form",
       "createdAt": "2024-05-28T07:45:52.000Z",
-      "updatedAt": "2025-11-02T17:45:15.000Z"
+      "updatedAt": "2025-11-03T21:08:29.000Z"
     },
-    "topics": ["accessibility", "bem-css", "html", "postcss"],
+    "topics": ["bem-css", "postcss", "typescript"],
     "colors": {
       "brand": "#FF5C5F"
     },
@@ -142,9 +142,9 @@
       "name": "age-calculator-app",
       "url": "https://github.com/haquanq-frontendmentor/age-calculator-app",
       "createdAt": "2024-05-28T11:39:36.000Z",
-      "updatedAt": "2025-11-02T09:39:49.000Z"
+      "updatedAt": "2025-11-03T21:24:48.000Z"
     },
-    "topics": ["accessibility", "bem-css", "html", "postcss"],
+    "topics": ["bem-css", "postcss", "typescript"],
     "colors": {
       "brand": "#8e23ff"
     },
@@ -165,9 +165,9 @@
       "name": "interactive-rating-component",
       "url": "https://github.com/haquanq-frontendmentor/interactive-rating-component",
       "createdAt": "2024-05-30T08:18:38.000Z",
-      "updatedAt": "2025-11-03T12:35:10.000Z"
+      "updatedAt": "2025-11-03T21:12:44.000Z"
     },
-    "topics": ["css", "html", "javascript"],
+    "topics": ["bem-css", "javascript", "vanilla-css"],
     "colors": {
       "brand": "#F97710"
     },
@@ -188,9 +188,9 @@
       "name": "stats-preview-card-component",
       "url": "https://github.com/haquanq-frontendmentor/stats-preview-card-component",
       "createdAt": "2024-06-01T05:09:49.000Z",
-      "updatedAt": "2025-11-03T12:12:14.000Z"
+      "updatedAt": "2025-11-03T21:02:43.000Z"
     },
-    "topics": ["accessibility", "bem-css", "css", "html"],
+    "topics": ["bem-css", "vanilla-css"],
     "colors": {
       "brand": "#1C1938"
     },
@@ -211,9 +211,9 @@
       "name": "news-homepage",
       "url": "https://github.com/haquanq-frontendmentor/news-homepage",
       "createdAt": "2024-06-02T13:50:48.000Z",
-      "updatedAt": "2025-11-02T17:44:54.000Z"
+      "updatedAt": "2025-11-03T21:08:40.000Z"
     },
-    "topics": ["bem-css", "html", "postcss"],
+    "topics": ["bem-css", "postcss", "typescript"],
     "colors": {
       "brand": "#F25D54"
     },
@@ -234,9 +234,9 @@
       "name": "contact-form",
       "url": "https://github.com/haquanq-frontendmentor/contact-form",
       "createdAt": "2024-06-04T07:49:04.000Z",
-      "updatedAt": "2025-11-02T17:42:14.000Z"
+      "updatedAt": "2025-11-03T21:18:23.000Z"
     },
-    "topics": ["accessibility", "bem-css", "html", "junior", "postcss"],
+    "topics": ["bem-css", "postcss", "typescript"],
     "colors": {
       "brand": "#0C7D69"
     },
@@ -257,9 +257,9 @@
       "name": "pricing-component-with-toggle",
       "url": "https://github.com/haquanq-frontendmentor/pricing-component-with-toggle",
       "createdAt": "2024-06-05T10:10:56.000Z",
-      "updatedAt": "2025-11-02T17:45:58.000Z"
+      "updatedAt": "2025-11-03T21:07:00.000Z"
     },
-    "topics": ["bem-css", "javascript", "postcss", "stylelint"],
+    "topics": ["bem-css", "javascript", "postcss"],
     "colors": {
       "brand": "#7276E2"
     },
@@ -280,9 +280,9 @@
       "name": "advice-generator-app",
       "url": "https://github.com/haquanq-frontendmentor/advice-generator-app",
       "createdAt": "2024-06-07T03:37:00.000Z",
-      "updatedAt": "2025-11-02T09:45:23.000Z"
+      "updatedAt": "2025-11-03T21:25:16.000Z"
     },
-    "topics": ["adviceslip-api", "bem-css", "html", "postcss"],
+    "topics": ["adviceslip-api", "bem-css", "postcss", "typescript"],
     "colors": {
       "brand": "#54FF9E"
     },
@@ -326,9 +326,9 @@
       "name": "recipe-page",
       "url": "https://github.com/haquanq-frontendmentor/recipe-page",
       "createdAt": "2024-06-09T07:18:31.000Z",
-      "updatedAt": "2025-11-03T06:21:41.000Z"
+      "updatedAt": "2025-11-03T21:05:25.000Z"
     },
-    "topics": ["bem-css", "css", "html"],
+    "topics": ["bem-css", "vanilla-css"],
     "colors": {
       "brand": "#7B284F"
     },
@@ -349,9 +349,9 @@
       "name": "social-links-profile",
       "url": "https://github.com/haquanq-frontendmentor/social-links-profile",
       "createdAt": "2024-06-11T23:56:51.000Z",
-      "updatedAt": "2025-11-03T07:48:59.000Z"
+      "updatedAt": "2025-11-03T21:03:18.000Z"
     },
-    "topics": ["bem-css", "css", "html"],
+    "topics": ["bem-css", "vanilla-css"],
     "colors": {
       "brand": "#98C020"
     },
@@ -372,9 +372,9 @@
       "name": "blog-preview-card",
       "url": "https://github.com/haquanq-frontendmentor/blog-preview-card",
       "createdAt": "2024-06-13T05:54:22.000Z",
-      "updatedAt": "2025-11-03T06:49:25.000Z"
+      "updatedAt": "2025-11-03T21:23:44.000Z"
     },
-    "topics": ["css", "html"],
+    "topics": ["bem-css", "vanilla-css"],
     "colors": {
       "brand": "#222222"
     },
@@ -395,9 +395,9 @@
       "name": "mortgage-repayment-calculator",
       "url": "https://github.com/haquanq-frontendmentor/mortgage-repayment-calculator",
       "createdAt": "2024-07-01T07:10:39.000Z",
-      "updatedAt": "2025-11-02T17:44:43.000Z"
+      "updatedAt": "2025-11-03T21:09:53.000Z"
     },
-    "topics": ["accessibility", "bem-css", "html", "junior", "postcss"],
+    "topics": ["bem-css", "postcss", "typescript"],
     "colors": {
       "brand": "#D9DB30"
     },
@@ -418,9 +418,9 @@
       "name": "faq-accordion",
       "url": "https://github.com/haquanq-frontendmentor/faq-accordion",
       "createdAt": "2024-07-01T08:03:58.000Z",
-      "updatedAt": "2025-11-03T06:07:35.000Z"
+      "updatedAt": "2025-11-03T21:16:25.000Z"
     },
-    "topics": ["accessibility", "css", "html", "javascript"],
+    "topics": ["animation", "bem-css", "javascript", "vanilla-css"],
     "colors": {
       "brand": "#A12CD7"
     },
@@ -441,9 +441,9 @@
       "name": "insure-landing-page",
       "url": "https://github.com/haquanq-frontendmentor/insure-landing-page",
       "createdAt": "2024-07-03T22:50:42.000Z",
-      "updatedAt": "2025-11-02T17:43:12.000Z"
+      "updatedAt": "2025-11-03T21:14:24.000Z"
     },
-    "topics": ["bem-css", "javascript", "postcss", "sass"],
+    "topics": ["bem-css", "javascript", "postcss"],
     "colors": {
       "brand": "#2c2a2e"
     },
@@ -464,9 +464,9 @@
       "name": "qr-code-component",
       "url": "https://github.com/haquanq-frontendmentor/qr-code-component",
       "createdAt": "2024-07-05T12:17:18.000Z",
-      "updatedAt": "2025-11-03T12:41:47.000Z"
+      "updatedAt": "2025-11-03T21:05:32.000Z"
     },
-    "topics": ["bem-css", "css", "html"],
+    "topics": ["bem-css", "vanilla-css"],
     "colors": {
       "brand": "#1570FE"
     },
@@ -487,9 +487,9 @@
       "name": "loopstudios-landing-page",
       "url": "https://github.com/haquanq-frontendmentor/loopstudios-landing-page",
       "createdAt": "2024-07-06T14:15:48.000Z",
-      "updatedAt": "2025-11-02T17:44:31.000Z"
+      "updatedAt": "2025-11-03T21:10:33.000Z"
     },
-    "topics": ["accessibility", "bem-css", "html", "javascript", "postcss"],
+    "topics": ["bem-css", "javascript", "postcss"],
     "colors": {
       "brand": "#222222"
     },
@@ -510,9 +510,9 @@
       "name": "single-price-grid-component",
       "url": "https://github.com/haquanq-frontendmentor/single-price-grid-component",
       "createdAt": "2024-07-07T07:10:44.000Z",
-      "updatedAt": "2025-11-03T08:25:04.000Z"
+      "updatedAt": "2025-11-03T21:03:31.000Z"
     },
-    "topics": ["accessibility", "bem-css", "css", "html"],
+    "topics": ["bem-css", "vanilla-css"],
     "colors": {
       "brand": "#AFCF20"
     },
@@ -533,9 +533,9 @@
       "name": "article-preview-component",
       "url": "https://github.com/haquanq-frontendmentor/article-preview-component",
       "createdAt": "2024-07-09T01:51:21.000Z",
-      "updatedAt": "2025-11-03T09:38:04.000Z"
+      "updatedAt": "2025-11-03T21:24:29.000Z"
     },
-    "topics": ["bem-css", "css", "html", "javascript"],
+    "topics": ["bem-css", "javascript", "vanilla-css"],
     "colors": {
       "brand": "#384759"
     },
@@ -579,9 +579,9 @@
       "name": "profile-card-component",
       "url": "https://github.com/haquanq-frontendmentor/profile-card-component",
       "createdAt": "2024-07-09T14:07:31.000Z",
-      "updatedAt": "2025-11-03T09:56:30.000Z"
+      "updatedAt": "2025-11-03T21:05:50.000Z"
     },
-    "topics": ["bem-css", "css", "html"],
+    "topics": ["bem-css", "vanilla-css"],
     "colors": {
       "brand": "#7B284F"
     },
@@ -602,9 +602,9 @@
       "name": "coding-bootcamp-testimonials-slider",
       "url": "https://github.com/haquanq-frontendmentor/coding-bootcamp-testimonials-slider",
       "createdAt": "2024-07-10T06:14:46.000Z",
-      "updatedAt": "2025-11-02T17:41:53.000Z"
+      "updatedAt": "2025-11-03T21:18:49.000Z"
     },
-    "topics": ["accessibility", "bem-css", "javascript", "postcss"],
+    "topics": ["bem-css", "javascript", "postcss"],
     "colors": {
       "brand": "#6d28d9"
     },
@@ -625,9 +625,9 @@
       "name": "four-card-feature-section",
       "url": "https://github.com/haquanq-frontendmentor/four-card-feature-section",
       "createdAt": "2024-07-10T14:48:07.000Z",
-      "updatedAt": "2025-11-03T09:31:11.000Z"
+      "updatedAt": "2025-11-03T21:15:39.000Z"
     },
-    "topics": ["bem-css", "css", "html"],
+    "topics": ["bem-css", "vanilla-css"],
     "colors": {
       "brand": "#222"
     },
@@ -648,9 +648,9 @@
       "name": "3-column-preview-card-component",
       "url": "https://github.com/haquanq-frontendmentor/3-column-preview-card-component",
       "createdAt": "2024-07-12T06:26:58.000Z",
-      "updatedAt": "2025-11-03T10:04:41.000Z"
+      "updatedAt": "2025-11-03T21:25:25.000Z"
     },
-    "topics": ["css", "html"],
+    "topics": ["bem-css", "vanilla-css"],
     "colors": {
       "brand": "#00403F"
     },
@@ -671,9 +671,9 @@
       "name": "fylo-data-storage-component",
       "url": "https://github.com/haquanq-frontendmentor/fylo-data-storage-component",
       "createdAt": "2024-07-13T06:26:25.000Z",
-      "updatedAt": "2025-11-02T17:43:02.000Z"
+      "updatedAt": "2025-11-03T21:15:00.000Z"
     },
-    "topics": ["accessibility", "bem-css", "junior", "postcss"],
+    "topics": ["bem-css", "postcss"],
     "colors": {
       "brand": "#0C122C"
     },
@@ -694,9 +694,9 @@
       "name": "social-proof-section",
       "url": "https://github.com/haquanq-frontendmentor/social-proof-section",
       "createdAt": "2024-07-14T09:03:09.000Z",
-      "updatedAt": "2025-11-03T09:50:21.000Z"
+      "updatedAt": "2025-11-03T21:02:37.000Z"
     },
-    "topics": ["accessibility", "bem-css", "css", "html"],
+    "topics": ["bem-css", "vanilla-css"],
     "colors": {
       "brand": "#511F50"
     },
@@ -717,9 +717,9 @@
       "name": "faq-accordion-card",
       "url": "https://github.com/haquanq-frontendmentor/faq-accordion-card",
       "createdAt": "2024-07-16T07:26:49.000Z",
-      "updatedAt": "2025-11-03T05:57:48.000Z"
+      "updatedAt": "2025-11-03T21:15:58.000Z"
     },
-    "topics": ["accessibility", "bem-css", "css", "html", "javascript"],
+    "topics": ["animation", "bem-css", "javascript", "vanilla-css"],
     "colors": {
       "brand": "#6F64E7"
     },
@@ -740,9 +740,9 @@
       "name": "interactive-pricing-component",
       "url": "https://github.com/haquanq-frontendmentor/interactive-pricing-component",
       "createdAt": "2024-07-18T04:56:19.000Z",
-      "updatedAt": "2025-11-02T17:43:51.000Z"
+      "updatedAt": "2025-11-03T21:13:11.000Z"
     },
-    "topics": ["bem-css", "drag-and-drop", "html", "postcss", "slider"],
+    "topics": ["bem-css", "draggable", "postcss", "slider", "typescript"],
     "colors": {
       "brand": "#12D7C3"
     },
@@ -763,9 +763,9 @@
       "name": "expenses-chart-component",
       "url": "https://github.com/haquanq-frontendmentor/expenses-chart-component",
       "createdAt": "2024-07-19T06:43:06.000Z",
-      "updatedAt": "2025-11-02T17:42:40.000Z"
+      "updatedAt": "2025-11-03T21:16:40.000Z"
     },
-    "topics": ["accessibility", "bem-css", "html", "postcss"],
+    "topics": ["bem-css", "postcss", "typescript"],
     "colors": {
       "brand": "#EC755D"
     },
@@ -786,9 +786,9 @@
       "name": "time-tracking-dashboard",
       "url": "https://github.com/haquanq-frontendmentor/time-tracking-dashboard",
       "createdAt": "2024-07-21T06:42:27.000Z",
-      "updatedAt": "2025-11-02T17:47:02.000Z"
+      "updatedAt": "2025-11-03T21:00:33.000Z"
     },
-    "topics": ["bem-css", "html", "postcss"],
+    "topics": ["bem-css", "postcss", "typescript"],
     "colors": {
       "brand": "#0D1323"
     },
@@ -809,9 +809,9 @@
       "name": "tip-calculator-app",
       "url": "https://github.com/haquanq-frontendmentor/tip-calculator-app",
       "createdAt": "2024-07-21T08:39:43.000Z",
-      "updatedAt": "2025-11-02T17:47:27.000Z"
+      "updatedAt": "2025-11-03T20:59:44.000Z"
     },
-    "topics": ["accessibility", "bem-css", "html", "postcss"],
+    "topics": ["bem-css", "postcss", "typescript"],
     "colors": {
       "brand": "#00484C"
     },
@@ -832,32 +832,32 @@
       "name": "base-apparel-coming-soon-page",
       "url": "https://github.com/haquanq-frontendmentor/base-apparel-coming-soon-page",
       "createdAt": "2024-07-21T15:16:17.000Z",
-      "updatedAt": "2025-11-03T05:40:29.000Z"
+      "updatedAt": "2025-11-03T21:24:24.000Z"
     },
-    "topics": ["accessibility", "bem-css", "css", "html", "javascript"],
+    "topics": ["bem-css", "javascript", "vanilla-css"],
     "colors": {
-      "brand": ""
+      "brand": "#EB7775"
     },
     "featured": false,
     "frontendmentor": {
-      "challengeUrl": "",
       "difficulty": "newbie",
-      "solutionUrl": ""
+      "challengeUrl": "https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0",
+      "solutionUrl": "https://www.frontendmentor.io/solutions/responsive-coming-soon-page-w-html---css-flexbox---js-DOLlqm9sIj"
     },
     "images": {
-      "preview": ""
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/base-apparel-coming-soon-page/main/docs/preview.jpg"
     },
     "live": "https://haquanq-frontendmentor.github.io/base-apparel-coming-soon-page/",
-    "name": ""
+    "name": "Base Apparel Coming Soon Page"
   },
   {
     "repository": {
       "name": "notifications-page",
       "url": "https://github.com/haquanq-frontendmentor/notifications-page",
       "createdAt": "2024-07-23T01:41:29.000Z",
-      "updatedAt": "2025-11-02T17:45:26.000Z"
+      "updatedAt": "2025-11-03T21:07:57.000Z"
     },
-    "topics": ["bem-css", "html", "postcss"],
+    "topics": ["bem-css", "postcss", "typescript"],
     "colors": {
       "brand": "#08327E"
     },
@@ -878,9 +878,9 @@
       "name": "crowdfunding-product-page",
       "url": "https://github.com/haquanq-frontendmentor/crowdfunding-product-page",
       "createdAt": "2024-07-23T12:54:28.000Z",
-      "updatedAt": "2025-11-02T17:42:25.000Z"
+      "updatedAt": "2025-11-03T21:18:04.000Z"
     },
-    "topics": ["accessibility", "bem-css", "html", "junior", "postcss"],
+    "topics": ["bem-css", "postcss", "typescript"],
     "colors": {
       "brand": "#3CB4AB"
     },
@@ -901,9 +901,9 @@
       "name": "intro-section-with-dropdown-navigation",
       "url": "https://github.com/haquanq-frontendmentor/intro-section-with-dropdown-navigation",
       "createdAt": "2024-07-24T13:21:54.000Z",
-      "updatedAt": "2025-11-02T17:44:12.000Z"
+      "updatedAt": "2025-11-03T21:11:47.000Z"
     },
-    "topics": ["bem-css", "html", "postcss"],
+    "topics": ["bem-css", "postcss", "typescript"],
     "colors": {
       "brand": "#222222"
     },
@@ -924,9 +924,9 @@
       "name": "interactive-card-details-form",
       "url": "https://github.com/haquanq-frontendmentor/interactive-card-details-form",
       "createdAt": "2024-07-25T12:57:38.000Z",
-      "updatedAt": "2025-11-02T17:43:25.000Z"
+      "updatedAt": "2025-11-03T21:14:08.000Z"
     },
-    "topics": ["accessibility", "bem-css", "html", "postcss"],
+    "topics": ["bem-css", "postcss", "typescript"],
     "colors": {
       "brand": "#220930"
     },
@@ -947,9 +947,9 @@
       "name": "ping-coming-soon-page",
       "url": "https://github.com/haquanq-frontendmentor/ping-coming-soon-page",
       "createdAt": "2024-07-26T06:12:12.000Z",
-      "updatedAt": "2025-11-03T07:56:08.000Z"
+      "updatedAt": "2025-11-03T21:07:36.000Z"
     },
-    "topics": ["accessibility", "bem-css", "css", "html", "javascript"],
+    "topics": ["bem-css", "javascript", "vanilla-css"],
     "colors": {
       "brand": "#4D7BF3"
     },
@@ -970,9 +970,9 @@
       "name": "huddle-single-introductory-section",
       "url": "https://github.com/haquanq-frontendmentor/huddle-single-introductory-section",
       "createdAt": "2024-07-27T09:35:35.000Z",
-      "updatedAt": "2025-11-03T12:48:30.000Z"
+      "updatedAt": "2025-11-03T21:14:46.000Z"
     },
-    "topics": ["bem-css", "css", "html"],
+    "topics": ["bem-css", "vanilla-css"],
     "colors": {
       "brand": "#674BB1"
     },
@@ -993,9 +993,9 @@
       "name": "intro-component-with-sign-up-form",
       "url": "https://github.com/haquanq-frontendmentor/intro-component-with-sign-up-form",
       "createdAt": "2024-07-27T10:19:08.000Z",
-      "updatedAt": "2025-11-03T13:30:28.000Z"
+      "updatedAt": "2025-11-03T21:12:13.000Z"
     },
-    "topics": ["accessibility", "bem-css", "css", "html"],
+    "topics": ["bem-css", "javascript", "vanilla-css"],
     "colors": {
       "brand": "#E95352"
     },
@@ -1006,7 +1006,7 @@
       "solutionUrl": "https://www.frontendmentor.io/solutions/interactive-signup-form-w-html---css---js-bRn7Tf47Qv"
     },
     "images": {
-      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/intro-component-with-sign-up-form/main/docs/preview.jpg"
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/intro-component-with-sign-up-form/main/docs/preview.png"
     },
     "live": "https://haquanq-frontendmentor.github.io/intro-component-with-sign-up-form/",
     "name": "Intro Component With Sign Up Form"
@@ -1016,9 +1016,9 @@
       "name": "launch-countdown-timer",
       "url": "https://github.com/haquanq-frontendmentor/launch-countdown-timer",
       "createdAt": "2024-07-31T04:27:29.000Z",
-      "updatedAt": "2025-11-03T05:01:14.000Z"
+      "updatedAt": "2025-11-03T21:11:09.000Z"
     },
-    "topics": ["solidjs", "tailwindcss"],
+    "topics": ["solidjs", "tailwindcss", "typescript"],
     "colors": {
       "brand": "#1E1E28"
     },
@@ -1039,9 +1039,9 @@
       "name": "bento-grid",
       "url": "https://github.com/haquanq-frontendmentor/bento-grid",
       "createdAt": "2024-09-23T06:32:53.000Z",
-      "updatedAt": "2025-11-02T15:29:40.000Z"
+      "updatedAt": "2025-11-03T21:24:05.000Z"
     },
-    "topics": ["css", "html", "postcss", "stylelint"],
+    "topics": ["bem-css", "bento-grid", "postcss"],
     "colors": {
       "brand": "#FFDA66"
     },
@@ -1062,9 +1062,9 @@
       "name": "fylo-dark-theme-landing-page",
       "url": "https://github.com/haquanq-frontendmentor/fylo-dark-theme-landing-page",
       "createdAt": "2025-07-15T18:45:24.000Z",
-      "updatedAt": "2025-11-02T17:42:49.000Z"
+      "updatedAt": "2025-11-03T21:15:32.000Z"
     },
-    "topics": ["bem-css", "html5", "postcss"],
+    "topics": ["bem-css", "postcss", "sass"],
     "colors": {
       "brand": "#181E2A"
     },
@@ -1085,9 +1085,9 @@
       "name": "clipboard-landing-page",
       "url": "https://github.com/haquanq-frontendmentor/clipboard-landing-page",
       "createdAt": "2025-07-17T04:55:32.000Z",
-      "updatedAt": "2025-11-02T17:41:43.000Z"
+      "updatedAt": "2025-11-03T21:19:05.000Z"
     },
-    "topics": ["bem-css", "postcss", "stylelint"],
+    "topics": ["bem-css", "postcss"],
     "colors": {
       "brand": "#26BBA5"
     },
@@ -1108,9 +1108,9 @@
       "name": "product-list-with-cart",
       "url": "https://github.com/haquanq-frontendmentor/product-list-with-cart",
       "createdAt": "2025-07-21T16:43:40.000Z",
-      "updatedAt": "2025-11-02T17:45:50.000Z"
+      "updatedAt": "2025-11-03T21:06:48.000Z"
     },
-    "topics": ["bem-css", "postcss"],
+    "topics": ["bem-css", "inclusive-design", "postcss", "typescript"],
     "colors": {
       "brand": "#C83B0E"
     },
@@ -1131,9 +1131,9 @@
       "name": "browser-extensions-manager-ui",
       "url": "https://github.com/haquanq-frontendmentor/browser-extensions-manager-ui",
       "createdAt": "2025-09-13T02:01:25.000Z",
-      "updatedAt": "2025-11-02T17:41:32.000Z"
+      "updatedAt": "2025-11-03T21:22:36.000Z"
     },
-    "topics": ["bem-css", "junior", "postcss"],
+    "topics": ["bem-css", "mediator-pattern", "observer-pattern", "postcss", "typescript"],
     "colors": {
       "brand": "#C8231A"
     },
@@ -1154,9 +1154,9 @@
       "name": "sunnyside-agency-landing-page",
       "url": "https://github.com/haquanq-frontendmentor/sunnyside-agency-landing-page",
       "createdAt": "2025-09-18T06:40:15.000Z",
-      "updatedAt": "2025-11-02T17:46:26.000Z"
+      "updatedAt": "2025-11-03T21:01:24.000Z"
     },
-    "topics": ["bem-css", "html", "postcss"],
+    "topics": ["bem-css", "postcss", "typescript"],
     "colors": {
       "brand": "#3CBDFE"
     },
@@ -1177,9 +1177,9 @@
       "name": "conference-ticket-generator",
       "url": "https://github.com/haquanq-frontendmentor/conference-ticket-generator",
       "createdAt": "2025-09-19T06:40:58.000Z",
-      "updatedAt": "2025-11-02T17:42:03.000Z"
+      "updatedAt": "2025-11-03T21:18:33.000Z"
     },
-    "topics": ["bem-css", "postcss"],
+    "topics": ["bem-css", "postcss", "typescript"],
     "colors": {
       "brand": "#260161"
     },
@@ -1200,9 +1200,9 @@
       "name": "blogr-landing-page",
       "url": "https://github.com/haquanq-frontendmentor/blogr-landing-page",
       "createdAt": "2025-09-22T09:13:22.000Z",
-      "updatedAt": "2025-11-02T09:27:29.000Z"
+      "updatedAt": "2025-11-03T21:23:33.000Z"
     },
-    "topics": ["bem-css", "html", "postcss"],
+    "topics": ["bem-css", "postcss", "typescript"],
     "colors": {
       "brand": "#ff4256"
     },
@@ -1223,9 +1223,9 @@
       "name": "url-shortening-api-landing-page",
       "url": "https://github.com/haquanq-frontendmentor/url-shortening-api-landing-page",
       "createdAt": "2025-09-24T11:02:28.000Z",
-      "updatedAt": "2025-11-03T05:02:56.000Z"
+      "updatedAt": "2025-11-03T20:58:09.000Z"
     },
-    "topics": ["shortener", "svelte", "tailwindcss"],
+    "topics": ["svelte", "tailwindcss", "typescript", "url-shortener"],
     "colors": {
       "brand": "#2CD0CF"
     },
@@ -1246,9 +1246,9 @@
       "name": "bookmark-landing-page",
       "url": "https://github.com/haquanq-frontendmentor/bookmark-landing-page",
       "createdAt": "2025-09-25T11:02:25.000Z",
-      "updatedAt": "2025-11-02T17:35:21.000Z"
+      "updatedAt": "2025-11-03T21:22:42.000Z"
     },
-    "topics": ["accordion", "svelte", "tailwindcss"],
+    "topics": ["accordion", "svelte", "tailwindcss", "typescript"],
     "colors": {
       "brand": "#5266DF"
     },
@@ -1269,9 +1269,9 @@
       "name": "manage-landing-page",
       "url": "https://github.com/haquanq-frontendmentor/manage-landing-page",
       "createdAt": "2025-09-26T05:55:44.000Z",
-      "updatedAt": "2025-11-03T05:01:30.000Z"
+      "updatedAt": "2025-11-03T21:10:18.000Z"
     },
-    "topics": ["carousel", "svelte", "tailwindcss"],
+    "topics": ["carousel", "svelte", "tailwindcss", "typescript"],
     "colors": {
       "brand": "#F36A48"
     },
@@ -1292,9 +1292,9 @@
       "name": "digitalbank-landing-page",
       "url": "https://github.com/haquanq-frontendmentor/digitalbank-landing-page",
       "createdAt": "2025-09-28T16:27:15.000Z",
-      "updatedAt": "2025-11-03T04:59:12.000Z"
+      "updatedAt": "2025-11-03T21:17:22.000Z"
     },
-    "topics": ["svelte", "tailwindcss"],
+    "topics": ["svelte", "tailwindcss", "typescript"],
     "colors": {
       "brand": "#38C6B0"
     },
@@ -1315,9 +1315,9 @@
       "name": "job-listings-with-filtering",
       "url": "https://github.com/haquanq-frontendmentor/job-listings-with-filtering",
       "createdAt": "2025-09-29T07:03:59.000Z",
-      "updatedAt": "2025-11-03T05:00:53.000Z"
+      "updatedAt": "2025-11-03T21:11:15.000Z"
     },
-    "topics": ["solidjs", "tailwindcss"],
+    "topics": ["solidjs", "tailwindcss", "typescript"],
     "colors": {
       "brand": "#5F9C95"
     },
@@ -1338,9 +1338,9 @@
       "name": "chat-app-css-illustration",
       "url": "https://github.com/haquanq-frontendmentor/chat-app-css-illustration",
       "createdAt": "2025-10-03T15:38:36.000Z",
-      "updatedAt": "2025-11-03T04:58:36.000Z"
+      "updatedAt": "2025-11-03T21:20:47.000Z"
     },
-    "topics": ["solidjs", "tailwindcss"],
+    "topics": ["quotable-api", "solidjs", "tailwindcss", "typescript"],
     "colors": {
       "brand": "#AE3DFD"
     },
@@ -1361,9 +1361,9 @@
       "name": "room-homepage",
       "url": "https://github.com/haquanq-frontendmentor/room-homepage",
       "createdAt": "2025-10-08T16:42:09.000Z",
-      "updatedAt": "2025-11-03T05:01:56.000Z"
+      "updatedAt": "2025-11-03T21:04:05.000Z"
     },
-    "topics": ["draggable", "slider", "solidjs", "tailwindcss"],
+    "topics": ["draggable", "slider", "solidjs", "tailwindcss", "typescript"],
     "colors": {
       "brand": "#222222"
     },
@@ -1384,9 +1384,9 @@
       "name": "todo-app",
       "url": "https://github.com/haquanq-frontendmentor/todo-app",
       "createdAt": "2025-10-08T19:02:39.000Z",
-      "updatedAt": "2025-11-03T05:02:28.000Z"
+      "updatedAt": "2025-11-03T20:59:21.000Z"
     },
-    "topics": ["tailwindcss", "vue"],
+    "topics": ["pinia", "sortablejs", "tailwindcss", "typescript", "vue"],
     "colors": {
       "brand": "#79A1FF"
     },
@@ -1407,7 +1407,7 @@
       "name": "multi-step-form",
       "url": "https://github.com/haquanq-frontendmentor/multi-step-form",
       "createdAt": "2025-10-10T13:20:19.000Z",
-      "updatedAt": "2025-11-02T17:28:35.000Z"
+      "updatedAt": "2025-11-03T15:50:47.000Z"
     },
     "topics": ["react", "react-hook-form", "tailwindcss"],
     "colors": {
@@ -1423,19 +1423,16 @@
       "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/multi-step-form/main/docs/preview.jpg"
     },
     "live": "https://haquanq-frontendmentor.github.io/multi-step-form/",
-    "name": "Multi-step Form",
-    "colors:": {
-      "brand": "#493EFF"
-    }
+    "name": "Multi-step Form"
   },
   {
     "repository": {
       "name": "ecommerce-product-page",
       "url": "https://github.com/haquanq-frontendmentor/ecommerce-product-page",
       "createdAt": "2025-10-11T05:28:55.000Z",
-      "updatedAt": "2025-11-03T04:59:54.000Z"
+      "updatedAt": "2025-11-03T21:17:17.000Z"
     },
-    "topics": ["embla-carousel", "slider", "solidjs", "tailwindcss"],
+    "topics": ["embla-carousel", "slider", "solidjs", "tailwindcss", "typescript"],
     "colors": {
       "brand": "#DB6F2F"
     },
@@ -1456,9 +1453,9 @@
       "name": "calculator-app",
       "url": "https://github.com/haquanq-frontendmentor/calculator-app",
       "createdAt": "2025-10-12T13:28:42.000Z",
-      "updatedAt": "2025-11-02T17:35:48.000Z"
+      "updatedAt": "2025-11-03T21:21:40.000Z"
     },
-    "topics": ["tailwindcss", "vue"],
+    "topics": ["decimaljs", "pinia", "tailwindcss", "theming", "typescript", "vue"],
     "colors": {
       "brand": "#1E0934"
     },
@@ -1479,9 +1476,9 @@
       "name": "rest-countries-api",
       "url": "https://github.com/haquanq-frontendmentor/rest-countries-api",
       "createdAt": "2025-10-13T13:24:14.000Z",
-      "updatedAt": "2025-11-02T16:33:10.000Z"
+      "updatedAt": "2025-11-03T21:05:15.000Z"
     },
-    "topics": ["react", "rest-countries-api", "tailwindcss"],
+    "topics": ["radix-ui", "react", "rest-countries-api", "tailwindcss", "typescript", "zustand"],
     "colors": {
       "brand": "#212E37"
     },
@@ -1505,9 +1502,9 @@
       "name": "rock-paper-scissors",
       "url": "https://github.com/haquanq-frontendmentor/rock-paper-scissors",
       "createdAt": "2025-10-17T03:37:51.000Z",
-      "updatedAt": "2025-11-02T16:36:14.000Z"
+      "updatedAt": "2025-11-03T21:04:35.000Z"
     },
-    "topics": ["react", "tailwindcss", "zustand"],
+    "topics": ["colorthief", "react", "tailwindcss", "typescript", "zustand"],
     "colors": {
       "brand": "#182445"
     },
@@ -1521,19 +1518,16 @@
       "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/rock-paper-scissors/main/docs/preview.png"
     },
     "live": "https://haquanq-frontendmentor.github.io/rock-paper-scissors/",
-    "name": "Rock Paper Scissors",
-    "colors:": {
-      "brand": "#182445"
-    }
+    "name": "Rock Paper Scissors"
   },
   {
     "repository": {
       "name": "interactive-comments-section",
       "url": "https://github.com/haquanq-frontendmentor/interactive-comments-section",
       "createdAt": "2025-10-19T16:44:20.000Z",
-      "updatedAt": "2025-11-03T05:00:19.000Z"
+      "updatedAt": "2025-11-03T21:13:53.000Z"
     },
-    "topics": ["pinia", "tailwind", "vue"],
+    "topics": ["pinia", "tailwind", "typescript", "vue"],
     "colors": {
       "brand": "#5358B6"
     },
@@ -1554,9 +1548,9 @@
       "name": "weather-app",
       "url": "https://github.com/haquanq-frontendmentor/weather-app",
       "createdAt": "2025-10-21T05:48:48.000Z",
-      "updatedAt": "2025-11-03T05:03:24.000Z"
+      "updatedAt": "2025-11-03T20:58:35.000Z"
     },
-    "topics": ["openmeteo", "pinia", "primevue", "tailwindcss", "vue"],
+    "topics": ["openmeteo", "pinia", "primevue", "tailwindcss", "tanstack-query", "typescript", "vue"],
     "colors": {
       "brand": "#4455DA"
     },
@@ -1577,9 +1571,9 @@
       "name": "space-tourism-app",
       "url": "https://github.com/haquanq-frontendmentor/space-tourism-app",
       "createdAt": "2025-10-25T14:58:55.000Z",
-      "updatedAt": "2025-11-03T05:02:09.000Z"
+      "updatedAt": "2025-11-03T21:02:17.000Z"
     },
-    "topics": ["nextjs", "ssg", "tailwindcss"],
+    "topics": ["embla-carousel", "nextjs", "ssg", "tailwindcss"],
     "colors": {
       "brand": "#0B0D19"
     },
@@ -1590,7 +1584,7 @@
       "solutionUrl": "https://www.frontendmentor.io/solutions/static-site-generation-with-nextjs-mobile-first-responsive-Ala9Eyc1bh"
     },
     "images": {
-      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/space-tourism-app/main/docs/preview.jpg"
+      "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/space-tourism-app/main/docs/preview.png"
     },
     "live": "https://haquanq-frontendmentor.github.io/space-tourism-app/",
     "name": "Space Tourism Website"
@@ -1600,9 +1594,9 @@
       "name": "ip-address-tracker",
       "url": "https://github.com/haquanq-frontendmentor/ip-address-tracker",
       "createdAt": "2025-10-28T15:53:44.000Z",
-      "updatedAt": "2025-11-03T05:00:37.000Z"
+      "updatedAt": "2025-11-03T21:11:26.000Z"
     },
-    "topics": ["geolocation", "leafletjs", "pinia", "tailwindcss", "vue"],
+    "topics": ["geolocation", "leafletjs", "pinia", "tailwindcss", "typescript", "vue"],
     "colors": {
       "brand": "#47449F"
     },
@@ -1617,28 +1611,5 @@
     },
     "live": "https://haquanq-frontendmentor.github.io/ip-address-tracker/",
     "name": "IP Address Tracker"
-  },
-  {
-    "repository": {
-      "name": "portal",
-      "url": "https://github.com/haquanq-frontendmentor/portal",
-      "createdAt": "2025-10-29T13:29:33.000Z",
-      "updatedAt": "2025-11-02T20:49:02.000Z"
-    },
-    "topics": ["nextjs", "tailwindcss", "zustand"],
-    "colors": {
-      "brand": ""
-    },
-    "featured": false,
-    "frontendmentor": {
-      "challengeUrl": "",
-      "difficulty": "newbie",
-      "solutionUrl": ""
-    },
-    "images": {
-      "preview": ""
-    },
-    "live": "",
-    "name": ""
   }
 ]
