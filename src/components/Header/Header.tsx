@@ -8,6 +8,7 @@ import { useSolutionStore } from "@/stores/solutionStore";
 import { useEffect } from "react";
 import { ContainerLayout } from "../layouts/ContainerLayout";
 import { Nav } from "./Nav";
+import { ThemeToggle } from "./ThemeToggle";
 
 export const Header = () => {
   const { setSolutions, setTopics } = useSolutionStore();
@@ -48,6 +49,7 @@ export const Header = () => {
           </a>
           <div className="flex items-center gap-3 md:grow">
             <Nav />
+            <ThemeToggle />
             <a
               className="block text-gray-900"
               href="https://github.com/haquanq-frontendmentor"
