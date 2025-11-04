@@ -33,7 +33,7 @@ export const SolutionSummaryByDifficulty = ({
             </li>
           ))}
       </ul>
-      <div className="flex items-center gap-4 text-gray-900">
+      <div className="flex items-center gap-4 text-gray-900 transition-opacity hover:opacity-50 dark:text-gray-50">
         <Link className="text-base underline" href={`/solutions?difficulty=${difficulty}`}>
           View all {difficulty} challenge solutions
         </Link>
