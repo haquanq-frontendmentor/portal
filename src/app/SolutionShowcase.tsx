@@ -1,6 +1,7 @@
 "use client";
 
 import { ContainerLayout } from "@/components/layouts/ContainerLayout";
+import { DIFFICULTY_LEVLES } from "@/services/Solution/constants";
 import { Solution } from "@/services/Solution/types";
 import { useSolutionStore } from "@/stores/solutionStore";
 import { useEffect } from "react";
@@ -23,19 +24,19 @@ export const SolutionShowcase = () => {
 
   const challengeDifficultyLevels = [
     {
-      name: "advanced",
+      name: DIFFICULTY_LEVLES.ADVANCED,
       count: 16,
     },
     {
-      name: "intermediate",
+      name: DIFFICULTY_LEVLES.INTERMEDIATE,
       count: 30,
     },
     {
-      name: "junior",
+      name: DIFFICULTY_LEVLES.JUNIOR,
       count: 41,
     },
     {
-      name: "newbie",
+      name: DIFFICULTY_LEVLES.NEWBIE,
       count: 26,
     },
   ];
