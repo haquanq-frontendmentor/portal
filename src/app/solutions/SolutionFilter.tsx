@@ -1,8 +1,7 @@
 "use client";
 
-import { appConfig } from "@/configs/appConfig";
 import { DIFFICULTY_LEVLES } from "@/services/Solution/constants";
-import { DifficultyLevels, Solution } from "@/services/Solution/types";
+import { DifficultyLevels } from "@/services/Solution/types";
 import { useSolutionStore } from "@/stores/solutionStore";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect } from "react";
@@ -11,33 +10,11 @@ import { SolutionFilterName } from "./SolutionFilterName";
 import { SolutionFilterTopic } from "./SolutionFilterTopic";
 
 export const SolutionFilter = () => {
-  const { setSolutions, setTopics, getFilteredSolutions, solutions, filter } = useSolutionStore();
+  const { getFilteredSolutions, solutions, filter } = useSolutionStore();
 
   const router = useRouter();
   const pathname = usePathname();
   const params = useSearchParams();
-
-  useEffect(() => {
-    fetch(`${appConfig.basePath}/data.json`)
-      .then((v) => v.json())
-      .then((data) => {
-        const solutions = data as Solution[];
-        const topics = [...new Set(solutions.reduce((a, v) => a.concat(v.topics), [] as string[]))];
-        const order = [
-          DIFFICULTY_LEVLES.ADVANCED,
-          DIFFICULTY_LEVLES.INTERMEDIATE,
-          DIFFICULTY_LEVLES.JUNIOR,
-          DIFFICULTY_LEVLES.NEWBIE,
-        ];
-        solutions.sort((a, b) => {
-          const x = order.indexOf(a.frontendmentor.difficulty);
-          const y = order.indexOf(b.frontendmentor.difficulty);
-          return x - y;
-        });
-        setSolutions(solutions);
-        setTopics(topics);
-      });
-  }, []);
 
   useEffect(() => {
     const difficultyLevelsSearchParam = params.get("difficulty")?.split(",") as DifficultyLevels[];
@@ -77,7 +54,7 @@ export const SolutionFilter = () => {
       const separator = filter.difficultyLevels.length !== 0 ? "&" : "?";
       uri += separator + "topics=" + filter.topics.join(",");
     }
-    router.push(pathname + uri);
+    router.push(pathname + uri, { scroll: false });
   }, [filter]);
 
   return (

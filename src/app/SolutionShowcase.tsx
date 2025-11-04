@@ -1,27 +1,12 @@
 "use client";
 
 import { ContainerLayout } from "@/components/layouts/ContainerLayout";
-import { appConfig } from "@/configs/appConfig";
 import { DIFFICULTY_LEVLES } from "@/services/Solution/constants";
-import { Solution } from "@/services/Solution/types";
 import { useSolutionStore } from "@/stores/solutionStore";
-import { useEffect } from "react";
 import { SolutionSummaryByDifficulty } from "./SolutionShowcaseByDifficulty";
 
 export const SolutionShowcase = () => {
   const solutionStore = useSolutionStore();
-
-  useEffect(() => {
-    fetch(`${appConfig.basePath}/data.json`)
-      .then((v) => v.json())
-      .then((data) => {
-        const solutions = data as Solution[];
-
-        const topics = [...new Set(solutions.reduce((a, v) => a.concat(v.topics), [] as string[]))];
-        solutionStore.setSolutions(solutions);
-        solutionStore.setTopics(topics);
-      });
-  }, []);
 
   const challengeDifficultyLevels = [
     {
