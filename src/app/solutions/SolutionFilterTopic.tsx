@@ -6,20 +6,24 @@ import { CheckIcon, MinusIcon, PlusIcon, TrashIcon, XIcon } from "lucide-react";
 import { useId, useRef } from "react";
 
 export const SolutionFilterTopic = () => {
-  const { topics, filter } = useSolutionStore();
+  const {
+    topics: allTopics,
+    filter: { topics, addTopic, clearAllTopics },
+  } = useSolutionStore();
   const containerRef = useRef<HTMLDivElement | null>(null);
   const inputId = useId();
 
   const handleValueChange = (values: string[]) => {
-    filter.clearAllTopics();
-    values.forEach((v) => filter.addTopic(v));
+    clearAllTopics();
+    values.forEach((v) => addTopic(v));
   };
+
   return (
     <div>
       <Collapsible.Root className="flex flex-col justify-center text-gray-900">
         <Collapsible.Trigger className="group rounded-lg">
           <Button className="w-full" size="medium" variant="secondary" asWrapper>
-            Filter by {filter.topics.length !== 0 && filter.topics.length} topics
+            Filter by {topics.length !== 0 && topics.length} topics
             <PlusIcon className="size-5 group-aria-expanded:hidden" />
             <MinusIcon className="hidden size-5 group-aria-expanded:block" />
           </Button>
@@ -27,7 +31,7 @@ export const SolutionFilterTopic = () => {
         <Collapsible.Panel className="flex h-(--collapsible-panel-height) flex-col justify-end overflow-hidden text-sm transition-all ease-out data-ending-style:h-0 data-starting-style:h-0">
           <div>
             <div className="h-4"></div>
-            <Combobox.Root items={topics} multiple onValueChange={handleValueChange} value={filter.topics}>
+            <Combobox.Root items={allTopics} multiple onValueChange={handleValueChange} value={topics}>
               <div className="flex flex-col gap-1">
                 <label className="sr-only" htmlFor={inputId}>
                   Topics

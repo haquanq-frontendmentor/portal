@@ -1,4 +1,5 @@
 import { ContainerLayout } from "@/components/layouts/ContainerLayout";
+import { Suspense } from "react";
 import { SolutionFilter } from "./SolutionFilter";
 import { SolutionList } from "./SolutionList";
 
@@ -14,7 +15,9 @@ export default function SolutionPage() {
           </ContainerLayout>
         </div>
         <ContainerLayout>
-          <SolutionFilter />
+          <Suspense>
+            <SolutionFilter />
+          </Suspense>
           <SolutionList />
         </ContainerLayout>
       </div>
