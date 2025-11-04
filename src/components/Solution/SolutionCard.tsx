@@ -1,5 +1,6 @@
 "use client";
 
+import { appConfig } from "@/configs/appConfig";
 import { Solution } from "@/services/Solution/types";
 import { hexToRgb } from "@/utils/hexToRgb";
 import { CodeXmlIcon } from "lucide-react";
@@ -57,7 +58,7 @@ export const SolutionCard = ({ solution }: SolutionCardProps) => {
             aria-label="View solution post"
             target="_blank"
           >
-            <img src="/logos/frontendmentor.svg" alt="" />
+            <img src={`${appConfig.basePath}/logos/frontendmentor.svg`} alt="" />
           </a>
         </div>
       </div>

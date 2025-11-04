@@ -1,6 +1,7 @@
 "use client";
 
 import { ContainerLayout } from "@/components/layouts/ContainerLayout";
+import { appConfig } from "@/configs/appConfig";
 import { DIFFICULTY_LEVLES } from "@/services/Solution/constants";
 import { Solution } from "@/services/Solution/types";
 import { useSolutionStore } from "@/stores/solutionStore";
@@ -11,7 +12,7 @@ export const SolutionShowcase = () => {
   const solutionStore = useSolutionStore();
 
   useEffect(() => {
-    fetch("/data.json")
+    fetch(`${appConfig.basePath}/data.json`)
       .then((v) => v.json())
       .then((data) => {
         const solutions = data as Solution[];

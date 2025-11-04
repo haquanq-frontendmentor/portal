@@ -1,5 +1,6 @@
 import { Button } from "@/components/common/Button";
 import { ContainerLayout } from "@/components/layouts/ContainerLayout";
+import { appConfig } from "@/configs/appConfig";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -12,7 +13,7 @@ export const Intro = () => {
           <div className="flex items-start">
             <Image
               className="lg:col-start-2 lg:max-w-[200%]"
-              src="/images/intro-image.png"
+              src={`${appConfig.basePath}/images/intro-image.png`}
               alt=""
               width={607}
               height={480}
