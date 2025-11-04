@@ -23,8 +23,10 @@ export const Button = ({
       "px-4 py-1 rounded-md text-sm": size === "small",
     },
     {
-      "bg-gray-900 text-white inset-ring-gray-900 hover:bg-gray-50 hover:text-gray-900": variant === "primary",
-      "bg-gray-50 text-gray-900 inset-ring-gray-100 hover:inset-ring-gray-900": variant === "secondary",
+      "bg-gray-900 text-white inset-ring-gray-900 hover:bg-gray-50 hover:text-gray-900 dark:bg-gray-50 dark:inset-ring-white dark:text-gray-900 dark:hover:bg-gray-900 dark:hover:text-white":
+        variant === "primary",
+      "bg-gray-50 text-gray-900 inset-ring-gray-100 hover:inset-ring-gray-900 dark:bg-gray-800 dark:inset-ring-gray-700 dark:text-gray-50 dark:hover:inset-ring-gray-50":
+        variant === "secondary",
     },
     className,
   );
