@@ -40,12 +40,15 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: "Build artifact"
+        env:
+          NEXT_CONFIG_OUTPUT: "export"
+          NEXT_CONFIG_DISTDIR: "./.next/dist"
         run: pnpm build
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: "./dist"
+          path: "./.next/dist"
 
       - name: Deploy to GitHub Pages
         id: deployment
