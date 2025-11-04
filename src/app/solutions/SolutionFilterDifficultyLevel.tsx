@@ -6,8 +6,11 @@ import { DifficultyLevels } from "@/services/Solution/types";
 import { useSolutionStore } from "@/stores/solutionStore";
 import { Popover } from "@base-ui-components/react";
 import { CheckIcon, ChevronDownIcon } from "lucide-react";
+import { useSearchParams } from "next/navigation";
+import { useEffect } from "react";
 
 export const SolutionFilterDifficultyLevel = () => {
+  const params = useSearchParams();
   const { clearAllDifficultyLevels, addDifficultyLevel, removeDifficultyLevel, difficultyLevels } = useSolutionStore(
     (state) => state.filter,
   );
@@ -23,6 +26,18 @@ export const SolutionFilterDifficultyLevel = () => {
   const handleClearAll = () => {
     clearAllDifficultyLevels();
   };
+
+  useEffect(() => {
+    const difficultyLevelsSearchParam = params.get("difficulty")?.split(",") as DifficultyLevels[];
+    if (difficultyLevelsSearchParam) {
+      clearAllDifficultyLevels();
+      difficultyLevelsSearchParam.forEach((difficultyLevel) => {
+        if (Object.values(DIFFICULTY_LEVLES).includes(difficultyLevel)) {
+          addDifficultyLevel(difficultyLevel);
+        }
+      });
+    }
+  }, []);
 
   return (
     <Popover.Root modal="trap-focus">

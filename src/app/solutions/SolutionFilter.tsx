@@ -1,16 +1,14 @@
 "use client";
 
 import { DIFFICULTY_LEVLES } from "@/services/Solution/constants";
-import { DifficultyLevels, Solution } from "@/services/Solution/types";
+import { Solution } from "@/services/Solution/types";
 import { useSolutionStore } from "@/stores/solutionStore";
-import { useSearchParams } from "next/navigation";
-import { useEffect } from "react";
+import { Suspense, useEffect } from "react";
 import { SolutionFilterDifficultyLevel } from "./SolutionFilterDifficultyLevel";
 import { SolutionFilterName } from "./SolutionFilterName";
 import { SolutionFilterTopic } from "./SolutionFilterTopic";
 
 export const SolutionFilter = () => {
-  const params = useSearchParams();
   const { setSolutions, setTopics, getFilteredSolutions, solutions, filter } = useSolutionStore();
 
   useEffect(() => {
@@ -33,16 +31,6 @@ export const SolutionFilter = () => {
         setSolutions(solutions);
         setTopics(topics);
       });
-
-    const difficultyLevelsSearchParam = params.get("difficulty")?.split(",") as DifficultyLevels[];
-    if (difficultyLevelsSearchParam) {
-      filter.clearAllDifficultyLevels();
-      difficultyLevelsSearchParam.forEach((difficultyLevel) => {
-        if (Object.values(DIFFICULTY_LEVLES).includes(difficultyLevel)) {
-          filter.addDifficultyLevel(difficultyLevel);
-        }
-      });
-    }
   }, []);
 
   return (
@@ -50,7 +38,9 @@ export const SolutionFilter = () => {
       <SolutionFilterTopic />
       <div className="flex flex-wrap justify-between gap-4">
         <SolutionFilterName />
-        <SolutionFilterDifficultyLevel />
+        <Suspense>
+          <SolutionFilterDifficultyLevel />
+        </Suspense>
       </div>
       <p className="text-gray-500">
         Showing {getFilteredSolutions().length} of {solutions.length} solutions
