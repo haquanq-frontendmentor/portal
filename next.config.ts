@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
         unoptimized: true,
     },
     output: process.env.NEXT_CONFIG_OUTPUT as NextConfig["output"],
+    distDir: process.env.NEXT_CONFIG_DISTDIR,
 };
 
 export default nextConfig;
