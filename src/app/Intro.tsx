@@ -14,6 +14,8 @@ export const Intro = () => {
               className="lg:col-start-2 lg:max-w-[200%]"
               src={`${appConfig.basePath}/images/intro-image.png`}
               alt=""
+              width={609}
+              height={480}
             />
           </div>
           <div className="flex flex-col items-center text-center lg:row-start-1 lg:items-start lg:text-start">
