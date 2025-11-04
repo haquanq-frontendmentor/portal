@@ -52,7 +52,7 @@ export const SolutionCard = ({ solution }: SolutionCardProps) => {
               content="View code"
               trigger={
                 <a
-                  className="bg-gray-900 px-1.5 text-white inset-ring inset-ring-gray-800 dark:inset-ring-gray-500"
+                  className="bg-gray-900 px-1.5 text-white inset-ring inset-ring-gray-800 transition-opacity hover:opacity-50 dark:inset-ring-gray-500"
                   href={solution.repository.url}
                   aria-label="View code"
                   target="_blank"
@@ -65,7 +65,7 @@ export const SolutionCard = ({ solution }: SolutionCardProps) => {
               content="View solution post"
               trigger={
                 <a
-                  className="block bg-white px-2 inset-ring inset-ring-gray-200 dark:inset-ring-gray-500"
+                  className="block bg-white px-2 inset-ring inset-ring-gray-200 transition-opacity hover:opacity-50 dark:inset-ring-gray-500"
                   href={solution.frontendmentor.solutionUrl}
                   aria-label="View solution post"
                   target="_blank"
