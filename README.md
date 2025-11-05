@@ -27,4 +27,5 @@ Expand into a complete fullstack project, integrating backend functionality.
 
 ## Credits
 
-Thanks to [3dicons](https://3dicons.co/) for their beautifully crafted free 3D icons that added visual flair to this site.
+- Thanks to [Frontend Mentor](https://www.frontendmentor.io/) for providing free Frontend challenges.
+- Thanks to [3dicons](https://3dicons.co/) for their beautifully crafted free 3D icons that added visual flair to this site.
