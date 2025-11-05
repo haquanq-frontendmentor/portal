@@ -1,11 +1,11 @@
 "use client";
 
 import { appConfig } from "@/configs/appConfig";
-import { GithubIcon } from "@/icons/GithubIcon";
 import { DIFFICULTY_LEVLES } from "@/services/Solution/constants";
 import { Solution } from "@/services/Solution/types";
 import { useSolutionStore } from "@/stores/solutionStore";
 import { useEffect } from "react";
+import { GithubIcon } from "../icons/GithubIcon";
 import { ContainerLayout } from "../layouts/ContainerLayout";
 import { Nav } from "./Nav";
 import { ThemeToggle } from "./ThemeToggle";
