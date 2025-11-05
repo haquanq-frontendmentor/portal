@@ -14,7 +14,7 @@ interface SolutionCardProps {
 export const SolutionCard = ({ solution }: SolutionCardProps) => {
   if (solution.colors.brand === "") solution.colors.brand = "#222";
   return (
-    <div className="flex flex-col rounded-xl bg-white inset-ring inset-ring-gray-100 dark:bg-gray-800 dark:inset-ring-gray-700">
+    <div className="flex flex-col rounded-xl bg-gray-50 inset-ring inset-ring-gray-100 dark:bg-gray-800 dark:inset-ring-gray-700">
       <a
         className="group relative aspect-384/282 rounded-xl shadow-lg"
         href={solution.live}
