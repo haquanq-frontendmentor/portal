@@ -19,6 +19,12 @@ interface SolutionStore {
         solutionName: string;
         setSolutionName: (name: string) => void;
     };
+    settings: {
+        showTopics: boolean;
+        setShowTopics: (value: boolean) => void;
+        showDifficultyLevels: boolean;
+        setShowDifficultyLevels: (value: boolean) => void;
+    };
 }
 
 const useSolutionStore = create<SolutionStore>()((set, get) => ({
@@ -77,6 +83,16 @@ const useSolutionStore = create<SolutionStore>()((set, get) => ({
         },
         clearAllDifficultyLevels: () => {
             set((state) => ({ filter: { ...state.filter, difficultyLevels: [] } }));
+        },
+    },
+    settings: {
+        showTopics: false,
+        setShowTopics: (value) => {
+            set((state) => ({ settings: { ...state.settings, showTopics: value } }));
+        },
+        showDifficultyLevels: false,
+        setShowDifficultyLevels(value) {
+            set((state) => ({ settings: { ...state.settings, showDifficultyLevels: value } }));
         },
     },
 }));
