@@ -1,6 +1,6 @@
 "use client";
 
-import { SolutionCard } from "@/components/Solution/SolutionCard";
+import { SolutionCard } from "@/components/Solution/SolutionCard/SolutionCard";
 import { useSolutionStore } from "@/stores/solutionStore";
 
 export const SolutionList = () => {

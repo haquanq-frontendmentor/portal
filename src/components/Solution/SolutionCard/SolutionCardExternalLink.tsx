@@ -2,7 +2,7 @@ import { appConfig } from "@/configs/appConfig";
 import { Solution } from "@/services/Solution/types";
 import { Tooltip } from "@base-ui-components/react";
 import { CodeXmlIcon } from "lucide-react";
-import { TextTooltip } from "../Tooltip/TextTooltip";
+import { TextTooltip } from "../../Tooltip/TextTooltip";
 
 interface SolutionCardExternalLinkProps {
   solution: Solution;

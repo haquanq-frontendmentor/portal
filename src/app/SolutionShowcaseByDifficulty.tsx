@@ -1,4 +1,4 @@
-import { SolutionCard } from "@/components/Solution/SolutionCard";
+import { SolutionCard } from "@/components/Solution/SolutionCard/SolutionCard";
 import { DifficultyLevels, Solution } from "@/services/Solution/types";
 import { MoveRightIcon } from "lucide-react";
 import Link from "next/link";
