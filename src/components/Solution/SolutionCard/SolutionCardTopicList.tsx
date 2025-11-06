@@ -5,9 +5,10 @@ import { Tooltip } from "@base-ui-components/react";
 
 interface SolutionCardTopicListProps {
   solution: Solution;
+  onTopicClick?: (topic: string) => void;
 }
 
-export const SolutionCardTopicList = ({ solution }: SolutionCardTopicListProps) => {
+export const SolutionCardTopicList = ({ solution, onTopicClick }: SolutionCardTopicListProps) => {
   return (
     <div>
       <Tooltip.Provider>
@@ -23,6 +24,7 @@ export const SolutionCardTopicList = ({ solution }: SolutionCardTopicListProps) 
                     variant="secondary"
                     size="small"
                     aria-label={`Add ${topic} to filter`}
+                    onClick={() => onTopicClick?.(topic)}
                   >
                     {`#${topic}`}
                   </Button>

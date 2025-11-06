@@ -9,9 +9,15 @@ interface SolutionCardProps {
   solution: Solution;
   showTopics?: boolean;
   showDifficulty?: boolean;
+  onTopicClick?: (topic: string) => void;
 }
 
-export const SolutionCard = ({ solution, showTopics = false, showDifficulty = false }: SolutionCardProps) => {
+export const SolutionCard = ({
+  solution,
+  showTopics = false,
+  showDifficulty = false,
+  onTopicClick,
+}: SolutionCardProps) => {
   if (solution.colors.brand === "") solution.colors.brand = "#222";
 
   return (
@@ -27,7 +33,7 @@ export const SolutionCard = ({ solution, showTopics = false, showDifficulty = fa
           </div>
           <SolutionCardExternalLink solution={solution} />
         </div>
-        {showTopics && <SolutionCardTopicList solution={solution} />}
+        {showTopics && <SolutionCardTopicList solution={solution} onTopicClick={onTopicClick} />}
       </div>
     </div>
   );
