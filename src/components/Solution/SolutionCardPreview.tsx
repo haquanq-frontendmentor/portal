@@ -9,7 +9,7 @@ export const SolutionCardPreview = ({ solution }: SolutionCardPreviewProps) => {
   return (
     <div>
       <a
-        className="group relative aspect-384/282 rounded-xl shadow-lg"
+        className="group relative block aspect-384/282 rounded-xl shadow-lg focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-dashed"
         href={solution.live}
         target="_blank"
         aria-label="Go to live site"
