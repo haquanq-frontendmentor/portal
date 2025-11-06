@@ -7,6 +7,7 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect } from "react";
 import { SolutionFilterDifficultyLevel } from "./SolutionFilterDifficultyLevel";
 import { SolutionFilterName } from "./SolutionFilterName";
+import { SolutionFilterSetting } from "./SolutionFilterSetting";
 import { SolutionFilterTopic } from "./SolutionFilterTopic";
 
 export const SolutionFilter = () => {
@@ -64,9 +65,12 @@ export const SolutionFilter = () => {
         <SolutionFilterName />
         <SolutionFilterDifficultyLevel />
       </div>
-      <p className="text-gray-500 dark:text-gray-400">
-        Showing {getFilteredSolutions().length} of {solutions.length} solutions
-      </p>
+      <div className="flex items-center justify-between gap-2">
+        <p className="text-gray-500 dark:text-gray-400">
+          Showing {getFilteredSolutions().length} of {solutions.length} solutions
+        </p>
+        <SolutionFilterSetting />
+      </div>
     </div>
   );
 };

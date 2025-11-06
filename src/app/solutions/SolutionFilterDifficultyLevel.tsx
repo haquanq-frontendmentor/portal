@@ -26,7 +26,7 @@ export const SolutionFilterDifficultyLevel = () => {
 
   return (
     <Popover.Root modal="trap-focus">
-      <Popover.Trigger className="flex h-12 w-64 items-center justify-between rounded-lg px-4 font-medium text-gray-900 inset-ring inset-ring-gray-200 transition-shadow select-none hover:inset-ring-gray-900 data-popup-open:inset-ring-gray-900 dark:text-gray-50 dark:inset-ring-gray-600 dark:hover:inset-ring-gray-50 dark:data-popup-open:inset-ring-gray-50">
+      <Popover.Trigger className="flex h-12 w-56 items-center justify-between rounded-lg px-4 font-medium text-gray-900 inset-ring inset-ring-gray-200 transition-shadow select-none hover:inset-ring-gray-900 data-popup-open:inset-ring-gray-900 dark:text-gray-50 dark:inset-ring-gray-600 dark:hover:inset-ring-gray-50 dark:data-popup-open:inset-ring-gray-50">
         <span>Difficulty {difficultyLevels.length !== 0 && `(${difficultyLevels.length} selected)`}</span>
         <ChevronDownIcon />
       </Popover.Trigger>
