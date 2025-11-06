@@ -20,7 +20,7 @@ export const Button = ({
     {
       "px-6 py-3 rounded-lg text-base": size === "large",
       "py-2 px-5 rounded-lg text-base": size === "medium",
-      "px-4 py-1 rounded-md text-sm": size === "small",
+      "px-4 py-1.5 rounded-md text-sm": size === "small",
     },
     {
       "bg-gray-900 text-white inset-ring-gray-900 hover:bg-gray-50 hover:text-gray-900 dark:bg-gray-50 dark:inset-ring-white dark:text-gray-900 dark:hover:bg-gray-900 dark:hover:text-white":
