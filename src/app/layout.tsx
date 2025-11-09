@@ -4,7 +4,7 @@ import { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://github.com/haquanq-frontendmentor"),
+  metadataBase: new URL("https://haquanq-frontendmentor.github.io/portal"),
   title: "Frontend Mentor Solutions Portal",
   icons: { icon: appConfig.basePath + "/favicon-32x32.png" },
   alternates: {
