@@ -70,12 +70,12 @@ export const Tooling = () => {
                   <img src={`${appConfig.basePath}/logos/tailwindcss.svg`} alt="" />
                 </a>
               </li>
-              <li>
+              <li className="hidden">
                 <a href="https://stylus-lang.com/" aria-label="Stylus">
                   <img src={`${appConfig.basePath}/logos/stylus.svg`} alt="" />
                 </a>
               </li>
-              <li>
+              <li className="hidden">
                 <a href="https://lesscss.org/" aria-label="Less">
                   <img src={`${appConfig.basePath}/logos/less.png`} alt="" />
                 </a>
